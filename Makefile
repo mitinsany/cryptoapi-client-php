@@ -1,0 +1,2 @@
+build:
+	docker run --rm --user $(id -u):$(id -g) -v ${PWD}:/local openapitools/openapi-generator-cli generate -i https://developers.cryptoapis.io/download/175  -g php -o /local -c /local/config.yml --skip-validate-spec

@@ -1,0 +1,7 @@
+additionalProperties:
+  licenseName: "GPL-3"
+  variableNamingConvention: "camelCase"
+  modern: "true"
+  packageName: "CryptoapisApiClient"
+  invokerPackage: "CryptoapisApiClient"
+  composerPackageName: "mitinsany/cryptoapi-client-php"
