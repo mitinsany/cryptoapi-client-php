@@ -8,13 +8,13 @@ Name | Type | Description | Notes
 **locktime** | **int** | Numeric representation of the transaction locktime |
 **size** | **int** | Numeric representation of the transaction size |
 **version** | **int** | Numeric representation of the transaction version |
-**fee** | [**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRIFee**](ListTransactionsByBlockHeightUTXOsRIFee.md) |  |
+**fee** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRIFee**](ListTransactionsByBlockHeightUTXOsRIFee.md) |  |
 **hash** | **string** | Represents the unique identifier of a transaction |
-**inputs** | [**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRIInputsInner[]**](ListTransactionsByBlockHeightUTXOsRIInputsInner.md) | Object Array representation of transaction inputs |
-**outputs** | [**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRIOutputsInner[]**](ListTransactionsByBlockHeightUTXOsRIOutputsInner.md) | Object Array representation of transaction outputs |
+**inputs** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRIInputsInner[]**](ListTransactionsByBlockHeightUTXOsRIInputsInner.md) | Object Array representation of transaction inputs |
+**outputs** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRIOutputsInner[]**](ListTransactionsByBlockHeightUTXOsRIOutputsInner.md) | Object Array representation of transaction outputs |
 **positionInBlock** | **int** | Numeric representation of the transaction index |
-**recipients** | [**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRIRecipientsInner[]**](ListTransactionsByBlockHeightUTXOsRIRecipientsInner.md) | Object Array representation of transaction receivers |
-**senders** | [**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRISendersInner[]**](ListTransactionsByBlockHeightUTXOsRISendersInner.md) | Object Array representation of transaction senders |
-**blockchainSpecific** | [**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRIBSZ**](ListTransactionsByBlockHeightUTXOsRIBSZ.md) |  | [optional]
+**recipients** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRIRecipientsInner[]**](ListTransactionsByBlockHeightUTXOsRIRecipientsInner.md) | Object Array representation of transaction receivers |
+**senders** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRISendersInner[]**](ListTransactionsByBlockHeightUTXOsRISendersInner.md) | Object Array representation of transaction senders |
+**blockchainSpecific** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsRIBSZ**](ListTransactionsByBlockHeightUTXOsRIBSZ.md) |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

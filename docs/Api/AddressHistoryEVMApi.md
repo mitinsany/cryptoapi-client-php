@@ -1,4 +1,4 @@
-# CryptoapisApiClient\AddressHistoryEVMApi
+# MitinSany/CryptoapisApiClient\AddressHistoryEVMApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -13,7 +13,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getSyncedAddressTokensTransferEVM()`
 
 ```php
-getSyncedAddressTokensTransferEVM($blockchain, $network, $address, $context, $limit, $sortingOrder, $startingAfter): \CryptoapisApiClient\Model\GetSyncedAddressTokensTransferEVMR
+getSyncedAddressTokensTransferEVM($blockchain, $network, $address, $context, $limit, $sortingOrder, $startingAfter): \MitinSany/CryptoapisApiClient\Model\GetSyncedAddressTokensTransferEVMR
 ```
 
 Get Synced Address Tokens Transfer EVM
@@ -28,12 +28,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressHistoryEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressHistoryEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -69,7 +69,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetSyncedAddressTokensTransferEVMR**](../Model/GetSyncedAddressTokensTransferEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetSyncedAddressTokensTransferEVMR**](../Model/GetSyncedAddressTokensTransferEVMR.md)
 
 ### Authorization
 
@@ -87,7 +87,7 @@ try {
 ## `listConfirmedTransactionsByAddressEVMHistory()`
 
 ```php
-listConfirmedTransactionsByAddressEVMHistory($blockchain, $network, $address, $context, $limit, $sortingOrder, $startingAfter): \CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMHistoryR
+listConfirmedTransactionsByAddressEVMHistory($blockchain, $network, $address, $context, $limit, $sortingOrder, $startingAfter): \MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMHistoryR
 ```
 
 List Confirmed Transactions By Address EVM history
@@ -102,12 +102,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressHistoryEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressHistoryEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -143,7 +143,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMHistoryR**](../Model/ListConfirmedTransactionsByAddressEVMHistoryR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMHistoryR**](../Model/ListConfirmedTransactionsByAddressEVMHistoryR.md)
 
 ### Authorization
 
@@ -161,7 +161,7 @@ try {
 ## `listSyncedAddressInternalTransactionsEVM()`
 
 ```php
-listSyncedAddressInternalTransactionsEVM($blockchain, $network, $address, $context, $limit, $sortingOrder, $startingAfter): \CryptoapisApiClient\Model\ListSyncedAddressInternalTransactionsEVMR
+listSyncedAddressInternalTransactionsEVM($blockchain, $network, $address, $context, $limit, $sortingOrder, $startingAfter): \MitinSany/CryptoapisApiClient\Model\ListSyncedAddressInternalTransactionsEVMR
 ```
 
 List Synced Address Internal Transactions EVM
@@ -176,12 +176,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressHistoryEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressHistoryEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -217,7 +217,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListSyncedAddressInternalTransactionsEVMR**](../Model/ListSyncedAddressInternalTransactionsEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListSyncedAddressInternalTransactionsEVMR**](../Model/ListSyncedAddressInternalTransactionsEVMR.md)
 
 ### Authorization
 
@@ -235,7 +235,7 @@ try {
 ## `listTokensByAddressSyncedEVM()`
 
 ```php
-listTokensByAddressSyncedEVM($blockchain, $network, $address, $context, $limit, $startingAfter): \CryptoapisApiClient\Model\ListTokensByAddressSyncedEVMR
+listTokensByAddressSyncedEVM($blockchain, $network, $address, $context, $limit, $startingAfter): \MitinSany/CryptoapisApiClient\Model\ListTokensByAddressSyncedEVMR
 ```
 
 List Tokens By Address Synced EVM
@@ -250,12 +250,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressHistoryEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressHistoryEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -289,7 +289,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListTokensByAddressSyncedEVMR**](../Model/ListTokensByAddressSyncedEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListTokensByAddressSyncedEVMR**](../Model/ListTokensByAddressSyncedEVMR.md)
 
 ### Authorization
 

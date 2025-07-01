@@ -11,6 +11,6 @@ Name | Type | Description | Notes
 **isAvailable** | **bool** | Represents if the UTXO has been used from another unconfirmed transaction. If it is - the value will be \&quot;false\&quot;. |
 **isConfirmed** | **bool** | Represents the state of the transaction whether it is confirmed or not confirmed. |
 **transactionId** | **string** | Represents the unique identifier of a transaction, i.e. it could be transactionId in UTXO-based protocols like Bitcoin, and transaction hash in Ethereum blockchain. |
-**value** | [**\CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubUTXOsRIValue**](ListHDWalletXPubYPubZPubUTXOsRIValue.md) |  |
+**value** | [**\MitinSany/CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubUTXOsRIValue**](ListHDWalletXPubYPubZPubUTXOsRIValue.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

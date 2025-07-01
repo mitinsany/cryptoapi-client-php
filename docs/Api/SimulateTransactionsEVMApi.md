@@ -1,4 +1,4 @@
-# CryptoapisApiClient\SimulateTransactionsEVMApi
+# MitinSany/CryptoapisApiClient\SimulateTransactionsEVMApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -10,7 +10,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `simulateEthereumTransactions()`
 
 ```php
-simulateEthereumTransactions($network, $context, $simulateEthereumTransactionsRB): \CryptoapisApiClient\Model\SimulateEthereumTransactionsR
+simulateEthereumTransactions($network, $context, $simulateEthereumTransactionsRB): \MitinSany/CryptoapisApiClient\Model\SimulateEthereumTransactionsR
 ```
 
 Simulate Ethereum Transactions
@@ -25,12 +25,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\SimulateTransactionsEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\SimulateTransactionsEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -38,7 +38,7 @@ $apiInstance = new CryptoapisApiClient\Api\SimulateTransactionsEVMApi(
 );
 $network = sepolia; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$simulateEthereumTransactionsRB = new \CryptoapisApiClient\Model\SimulateEthereumTransactionsRB(); // \CryptoapisApiClient\Model\SimulateEthereumTransactionsRB
+$simulateEthereumTransactionsRB = new \MitinSany/CryptoapisApiClient\Model\SimulateEthereumTransactionsRB(); // \MitinSany/CryptoapisApiClient\Model\SimulateEthereumTransactionsRB
 
 try {
     $result = $apiInstance->simulateEthereumTransactions($network, $context, $simulateEthereumTransactionsRB);
@@ -54,11 +54,11 @@ try {
 | ------------- | ------------- | ------------- | ------------- |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **simulateEthereumTransactionsRB** | [**\CryptoapisApiClient\Model\SimulateEthereumTransactionsRB**](../Model/SimulateEthereumTransactionsRB.md)|  | [optional] |
+| **simulateEthereumTransactionsRB** | [**\MitinSany/CryptoapisApiClient\Model\SimulateEthereumTransactionsRB**](../Model/SimulateEthereumTransactionsRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\SimulateEthereumTransactionsR**](../Model/SimulateEthereumTransactionsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\SimulateEthereumTransactionsR**](../Model/SimulateEthereumTransactionsR.md)
 
 ### Authorization
 

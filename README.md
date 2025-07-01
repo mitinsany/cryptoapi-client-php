@@ -1,4 +1,4 @@
-# CryptoapisApiClient
+# MitinSany/CryptoapisApiClient
 
 Crypto APIs is a complex and innovative infrastructure layer that radically simplifies the development of any Blockchain and Crypto related applications. Organized around REST, Crypto APIs can assist both novice Bitcoin/Ethereum enthusiasts and crypto experts with the development of their blockchain applications. Crypto APIs provides unified endpoints and data, raw data, automatic tokens and coins forwardings, callback functionalities, and much more.
 
@@ -36,7 +36,7 @@ Download the files and include `autoload.php`:
 
 ```php
 <?php
-require_once('/path/to/CryptoapisApiClient/vendor/autoload.php');
+require_once('/path/to/MitinSany/CryptoapisApiClient/vendor/autoload.php');
 ```
 
 ## Getting Started
@@ -50,12 +50,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressHistoryApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressHistoryApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -65,7 +65,7 @@ $address = 0x3d0b25fe09e2cd92f06ba776391a122519936e90; // string | Represents th
 $blockchain = ethereum; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = sepolia; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$activateSyncedAddressRB = new \CryptoapisApiClient\Model\ActivateSyncedAddressRB(); // \CryptoapisApiClient\Model\ActivateSyncedAddressRB
+$activateSyncedAddressRB = new \MitinSany/CryptoapisApiClient\Model\ActivateSyncedAddressRB(); // \MitinSany/CryptoapisApiClient\Model\ActivateSyncedAddressRB
 
 try {
     $result = $apiInstance->activateSyncedAddress($address, $blockchain, $network, $context, $activateSyncedAddressRB);

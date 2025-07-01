@@ -15,9 +15,9 @@ Name | Type | Description | Notes
 **sender** | **string** | Represents the address which sends this transaction |
 **type** | **int** | Specifies the transaction type as one from three options: if response returns a \&quot;0\&quot; it means the raw transaction includes legacy transaction data, if it is \&quot;1\&quot; - includes access lists for EIP2930, and if it is \&quot;2\&quot; - EIP1559 data. |
 **v** | **string** | Defines the the recovery id. |
-**fee** | [**\CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRIFee**](DecodeRawTransactionHexEVMRIFee.md) |  |
-**gasPrice** | [**\CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRIGasPrice**](DecodeRawTransactionHexEVMRIGasPrice.md) |  |
-**value** | [**\CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRIValue**](DecodeRawTransactionHexEVMRIValue.md) |  |
-**blockchainSpecific** | [**\CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRIBSE**](DecodeRawTransactionHexEVMRIBSE.md) |  | [optional]
+**fee** | [**\MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRIFee**](DecodeRawTransactionHexEVMRIFee.md) |  |
+**gasPrice** | [**\MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRIGasPrice**](DecodeRawTransactionHexEVMRIGasPrice.md) |  |
+**value** | [**\MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRIValue**](DecodeRawTransactionHexEVMRIValue.md) |  |
+**blockchainSpecific** | [**\MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRIBSE**](DecodeRawTransactionHexEVMRIBSE.md) |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

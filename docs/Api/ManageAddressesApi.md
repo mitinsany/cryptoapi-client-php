@@ -1,4 +1,4 @@
-# CryptoapisApiClient\ManageAddressesApi
+# MitinSany/CryptoapisApiClient\ManageAddressesApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -13,7 +13,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `activateSyncedAddress()`
 
 ```php
-activateSyncedAddress($address, $blockchain, $network, $context, $activateSyncedAddressRB): \CryptoapisApiClient\Model\ActivateSyncedAddressR
+activateSyncedAddress($address, $blockchain, $network, $context, $activateSyncedAddressRB): \MitinSany/CryptoapisApiClient\Model\ActivateSyncedAddressR
 ```
 
 Activate Synced Address
@@ -28,12 +28,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ManageAddressesApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ManageAddressesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -43,7 +43,7 @@ $address = 0x3d0b25fe09e2cd92f06ba776391a122519936e90; // string | Represents th
 $blockchain = ethereum; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = sepolia; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$activateSyncedAddressRB = new \CryptoapisApiClient\Model\ActivateSyncedAddressRB(); // \CryptoapisApiClient\Model\ActivateSyncedAddressRB
+$activateSyncedAddressRB = new \MitinSany/CryptoapisApiClient\Model\ActivateSyncedAddressRB(); // \MitinSany/CryptoapisApiClient\Model\ActivateSyncedAddressRB
 
 try {
     $result = $apiInstance->activateSyncedAddress($address, $blockchain, $network, $context, $activateSyncedAddressRB);
@@ -61,11 +61,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **activateSyncedAddressRB** | [**\CryptoapisApiClient\Model\ActivateSyncedAddressRB**](../Model/ActivateSyncedAddressRB.md)|  | [optional] |
+| **activateSyncedAddressRB** | [**\MitinSany/CryptoapisApiClient\Model\ActivateSyncedAddressRB**](../Model/ActivateSyncedAddressRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ActivateSyncedAddressR**](../Model/ActivateSyncedAddressR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ActivateSyncedAddressR**](../Model/ActivateSyncedAddressR.md)
 
 ### Authorization
 
@@ -83,7 +83,7 @@ try {
 ## `deleteSyncedAddress()`
 
 ```php
-deleteSyncedAddress($address, $blockchain, $network, $context): \CryptoapisApiClient\Model\DeleteSyncedAddressR
+deleteSyncedAddress($address, $blockchain, $network, $context): \MitinSany/CryptoapisApiClient\Model\DeleteSyncedAddressR
 ```
 
 Delete Synced Address
@@ -98,12 +98,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ManageAddressesApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ManageAddressesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -133,7 +133,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\DeleteSyncedAddressR**](../Model/DeleteSyncedAddressR.md)
+[**\MitinSany/CryptoapisApiClient\Model\DeleteSyncedAddressR**](../Model/DeleteSyncedAddressR.md)
 
 ### Authorization
 
@@ -151,7 +151,7 @@ try {
 ## `listSyncedAddresses()`
 
 ```php
-listSyncedAddresses($blockchain, $network, $context, $limit, $startingAfter): \CryptoapisApiClient\Model\ListSyncedAddressesR
+listSyncedAddresses($blockchain, $network, $context, $limit, $startingAfter): \MitinSany/CryptoapisApiClient\Model\ListSyncedAddressesR
 ```
 
 List Synced Addresses
@@ -166,12 +166,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ManageAddressesApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ManageAddressesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -203,7 +203,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListSyncedAddressesR**](../Model/ListSyncedAddressesR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListSyncedAddressesR**](../Model/ListSyncedAddressesR.md)
 
 ### Authorization
 
@@ -221,7 +221,7 @@ try {
 ## `syncAddress()`
 
 ```php
-syncAddress($blockchain, $network, $context, $syncAddressRB): \CryptoapisApiClient\Model\SyncAddressR
+syncAddress($blockchain, $network, $context, $syncAddressRB): \MitinSany/CryptoapisApiClient\Model\SyncAddressR
 ```
 
 Sync Address
@@ -236,12 +236,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ManageAddressesApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ManageAddressesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -250,7 +250,7 @@ $apiInstance = new CryptoapisApiClient\Api\ManageAddressesApi(
 $blockchain = ethereum; // string
 $network = sepolia; // string
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$syncAddressRB = new \CryptoapisApiClient\Model\SyncAddressRB(); // \CryptoapisApiClient\Model\SyncAddressRB
+$syncAddressRB = new \MitinSany/CryptoapisApiClient\Model\SyncAddressRB(); // \MitinSany/CryptoapisApiClient\Model\SyncAddressRB
 
 try {
     $result = $apiInstance->syncAddress($blockchain, $network, $context, $syncAddressRB);
@@ -267,11 +267,11 @@ try {
 | **blockchain** | **string**|  | [default to &#39;ethereum&#39;] |
 | **network** | **string**|  | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **syncAddressRB** | [**\CryptoapisApiClient\Model\SyncAddressRB**](../Model/SyncAddressRB.md)|  | [optional] |
+| **syncAddressRB** | [**\MitinSany/CryptoapisApiClient\Model\SyncAddressRB**](../Model/SyncAddressRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\SyncAddressR**](../Model/SyncAddressR.md)
+[**\MitinSany/CryptoapisApiClient\Model\SyncAddressR**](../Model/SyncAddressR.md)
 
 ### Authorization
 

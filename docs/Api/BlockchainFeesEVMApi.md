@@ -1,4 +1,4 @@
-# CryptoapisApiClient\BlockchainFeesEVMApi
+# MitinSany/CryptoapisApiClient\BlockchainFeesEVMApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -13,7 +13,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `estimateNativeCoinTransferGasLimitEVM()`
 
 ```php
-estimateNativeCoinTransferGasLimitEVM($blockchain, $network, $context, $estimateNativeCoinTransferGasLimitEVMRB): \CryptoapisApiClient\Model\EstimateNativeCoinTransferGasLimitEVMR
+estimateNativeCoinTransferGasLimitEVM($blockchain, $network, $context, $estimateNativeCoinTransferGasLimitEVMRB): \MitinSany/CryptoapisApiClient\Model\EstimateNativeCoinTransferGasLimitEVMR
 ```
 
 Estimate Native Coin Transfer Gas Limit EVM
@@ -28,12 +28,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlockchainFeesEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlockchainFeesEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -42,7 +42,7 @@ $apiInstance = new CryptoapisApiClient\Api\BlockchainFeesEVMApi(
 $blockchain = ethereum; // string | Represents the specific blockchain protocol name, e.g. Ethereum.
 $network = sepolia; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while network like \"testnet\" is a test network.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$estimateNativeCoinTransferGasLimitEVMRB = new \CryptoapisApiClient\Model\EstimateNativeCoinTransferGasLimitEVMRB(); // \CryptoapisApiClient\Model\EstimateNativeCoinTransferGasLimitEVMRB
+$estimateNativeCoinTransferGasLimitEVMRB = new \MitinSany/CryptoapisApiClient\Model\EstimateNativeCoinTransferGasLimitEVMRB(); // \MitinSany/CryptoapisApiClient\Model\EstimateNativeCoinTransferGasLimitEVMRB
 
 try {
     $result = $apiInstance->estimateNativeCoinTransferGasLimitEVM($blockchain, $network, $context, $estimateNativeCoinTransferGasLimitEVMRB);
@@ -59,11 +59,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while network like \&quot;testnet\&quot; is a test network. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **estimateNativeCoinTransferGasLimitEVMRB** | [**\CryptoapisApiClient\Model\EstimateNativeCoinTransferGasLimitEVMRB**](../Model/EstimateNativeCoinTransferGasLimitEVMRB.md)|  | [optional] |
+| **estimateNativeCoinTransferGasLimitEVMRB** | [**\MitinSany/CryptoapisApiClient\Model\EstimateNativeCoinTransferGasLimitEVMRB**](../Model/EstimateNativeCoinTransferGasLimitEVMRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\EstimateNativeCoinTransferGasLimitEVMR**](../Model/EstimateNativeCoinTransferGasLimitEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\EstimateNativeCoinTransferGasLimitEVMR**](../Model/EstimateNativeCoinTransferGasLimitEVMR.md)
 
 ### Authorization
 
@@ -81,7 +81,7 @@ try {
 ## `estimateTokenTransferGasLimitEVM()`
 
 ```php
-estimateTokenTransferGasLimitEVM($blockchain, $network, $context, $estimateTokenTransferGasLimitEVMRB): \CryptoapisApiClient\Model\EstimateTokenTransferGasLimitEVMR
+estimateTokenTransferGasLimitEVM($blockchain, $network, $context, $estimateTokenTransferGasLimitEVMRB): \MitinSany/CryptoapisApiClient\Model\EstimateTokenTransferGasLimitEVMR
 ```
 
 Estimate Token Transfer Gas Limit EVM
@@ -96,12 +96,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlockchainFeesEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlockchainFeesEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -110,7 +110,7 @@ $apiInstance = new CryptoapisApiClient\Api\BlockchainFeesEVMApi(
 $blockchain = ethereum; // string | Represents the specific blockchain protocol name, e.g. Ethereum.
 $network = sepolia; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while network like \"testnet\" is a test network.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$estimateTokenTransferGasLimitEVMRB = new \CryptoapisApiClient\Model\EstimateTokenTransferGasLimitEVMRB(); // \CryptoapisApiClient\Model\EstimateTokenTransferGasLimitEVMRB
+$estimateTokenTransferGasLimitEVMRB = new \MitinSany/CryptoapisApiClient\Model\EstimateTokenTransferGasLimitEVMRB(); // \MitinSany/CryptoapisApiClient\Model\EstimateTokenTransferGasLimitEVMRB
 
 try {
     $result = $apiInstance->estimateTokenTransferGasLimitEVM($blockchain, $network, $context, $estimateTokenTransferGasLimitEVMRB);
@@ -127,11 +127,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while network like \&quot;testnet\&quot; is a test network. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **estimateTokenTransferGasLimitEVMRB** | [**\CryptoapisApiClient\Model\EstimateTokenTransferGasLimitEVMRB**](../Model/EstimateTokenTransferGasLimitEVMRB.md)|  | [optional] |
+| **estimateTokenTransferGasLimitEVMRB** | [**\MitinSany/CryptoapisApiClient\Model\EstimateTokenTransferGasLimitEVMRB**](../Model/EstimateTokenTransferGasLimitEVMRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\EstimateTokenTransferGasLimitEVMR**](../Model/EstimateTokenTransferGasLimitEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\EstimateTokenTransferGasLimitEVMR**](../Model/EstimateTokenTransferGasLimitEVMR.md)
 
 ### Authorization
 
@@ -149,7 +149,7 @@ try {
 ## `getEIP1559FeeRecommendationsEVM()`
 
 ```php
-getEIP1559FeeRecommendationsEVM($network, $blockchain, $context): \CryptoapisApiClient\Model\GetEIP1559FeeRecommendationsEVMR
+getEIP1559FeeRecommendationsEVM($network, $blockchain, $context): \MitinSany/CryptoapisApiClient\Model\GetEIP1559FeeRecommendationsEVMR
 ```
 
 Get EIP 1559 Fee Recommendations EVM
@@ -164,12 +164,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlockchainFeesEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlockchainFeesEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -197,7 +197,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetEIP1559FeeRecommendationsEVMR**](../Model/GetEIP1559FeeRecommendationsEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetEIP1559FeeRecommendationsEVMR**](../Model/GetEIP1559FeeRecommendationsEVMR.md)
 
 ### Authorization
 
@@ -215,7 +215,7 @@ try {
 ## `getFeeRecommendationsEVM()`
 
 ```php
-getFeeRecommendationsEVM($blockchain, $network, $context): \CryptoapisApiClient\Model\GetFeeRecommendationsEVMR
+getFeeRecommendationsEVM($blockchain, $network, $context): \MitinSany/CryptoapisApiClient\Model\GetFeeRecommendationsEVMR
 ```
 
 Get Fee Recommendations EVM
@@ -230,12 +230,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlockchainFeesEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlockchainFeesEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -263,7 +263,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetFeeRecommendationsEVMR**](../Model/GetFeeRecommendationsEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetFeeRecommendationsEVMR**](../Model/GetFeeRecommendationsEVMR.md)
 
 ### Authorization
 

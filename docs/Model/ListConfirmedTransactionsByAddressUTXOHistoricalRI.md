@@ -9,15 +9,15 @@ Name | Type | Description | Notes
 **size** | **int** | Numeric representation of the transaction size |
 **version** | **int** | Numeric representation of the transaction version |
 **hash** | **string** | String representation of the transaction hash |
-**inputs** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIInputsInner[]**](ListConfirmedTransactionsByAddressUTXOHistoricalRIInputsInner.md) | Object Array representation of transaction inputs |
-**outputs** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIOutputsInner[]**](ListConfirmedTransactionsByAddressUTXOHistoricalRIOutputsInner.md) | Object Array representation of transaction outputs |
+**inputs** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIInputsInner[]**](ListConfirmedTransactionsByAddressUTXOHistoricalRIInputsInner.md) | Object Array representation of transaction inputs |
+**outputs** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIOutputsInner[]**](ListConfirmedTransactionsByAddressUTXOHistoricalRIOutputsInner.md) | Object Array representation of transaction outputs |
 **positionInBlock** | **int** | Numeric representation of the index |
-**recipients** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIRecipientsInner[]**](ListConfirmedTransactionsByAddressUTXOHistoricalRIRecipientsInner.md) | Object Array representation of transaction receivers |
-**senders** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRISendersInner[]**](ListConfirmedTransactionsByAddressUTXOHistoricalRISendersInner.md) | Object Array representation of transaction senders |
+**recipients** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIRecipientsInner[]**](ListConfirmedTransactionsByAddressUTXOHistoricalRIRecipientsInner.md) | Object Array representation of transaction receivers |
+**senders** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRISendersInner[]**](ListConfirmedTransactionsByAddressUTXOHistoricalRISendersInner.md) | Object Array representation of transaction senders |
 **timestamp** | **int** | Numeric representation of the timestamp in seconds since epoch |
-**fee** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIFee**](ListConfirmedTransactionsByAddressUTXOHistoricalRIFee.md) |  |
-**minedInBlock** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIMinedInBlock**](ListConfirmedTransactionsByAddressUTXOHistoricalRIMinedInBlock.md) |  |
-**blockchaiSpecific** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIBlockchaiSpecific**](ListConfirmedTransactionsByAddressUTXOHistoricalRIBlockchaiSpecific.md) |  |
-**blockchainSpecific** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIBSZ**](ListConfirmedTransactionsByAddressUTXOHistoricalRIBSZ.md) |  | [optional]
+**fee** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIFee**](ListConfirmedTransactionsByAddressUTXOHistoricalRIFee.md) |  |
+**minedInBlock** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIMinedInBlock**](ListConfirmedTransactionsByAddressUTXOHistoricalRIMinedInBlock.md) |  |
+**blockchaiSpecific** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIBlockchaiSpecific**](ListConfirmedTransactionsByAddressUTXOHistoricalRIBlockchaiSpecific.md) |  |
+**blockchainSpecific** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalRIBSZ**](ListConfirmedTransactionsByAddressUTXOHistoricalRIBSZ.md) |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -1,4 +1,4 @@
-# CryptoapisApiClient\AddressLatestSolanaApi
+# MitinSany/CryptoapisApiClient\AddressLatestSolanaApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -12,7 +12,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getAddressBalanceSolana()`
 
 ```php
-getAddressBalanceSolana($network, $address, $context): \CryptoapisApiClient\Model\GetAddressBalanceSolanaR
+getAddressBalanceSolana($network, $address, $context): \MitinSany/CryptoapisApiClient\Model\GetAddressBalanceSolanaR
 ```
 
 Get Address Balance Solana
@@ -27,12 +27,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressLatestSolanaApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressLatestSolanaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -60,7 +60,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetAddressBalanceSolanaR**](../Model/GetAddressBalanceSolanaR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetAddressBalanceSolanaR**](../Model/GetAddressBalanceSolanaR.md)
 
 ### Authorization
 
@@ -78,7 +78,7 @@ try {
 ## `listTokensByAddressSolana()`
 
 ```php
-listTokensByAddressSolana($network, $address, $context): \CryptoapisApiClient\Model\ListTokensByAddressSolanaR
+listTokensByAddressSolana($network, $address, $context): \MitinSany/CryptoapisApiClient\Model\ListTokensByAddressSolanaR
 ```
 
 List Tokens By Address Solana
@@ -93,12 +93,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressLatestSolanaApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressLatestSolanaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -126,7 +126,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListTokensByAddressSolanaR**](../Model/ListTokensByAddressSolanaR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListTokensByAddressSolanaR**](../Model/ListTokensByAddressSolanaR.md)
 
 ### Authorization
 
@@ -144,7 +144,7 @@ try {
 ## `listTransactionsByAddressSolana()`
 
 ```php
-listTransactionsByAddressSolana($network, $address, $context, $limit, $startingAfter): \CryptoapisApiClient\Model\ListTransactionsByAddressSolanaR
+listTransactionsByAddressSolana($network, $address, $context, $limit, $startingAfter): \MitinSany/CryptoapisApiClient\Model\ListTransactionsByAddressSolanaR
 ```
 
 List Transactions By Address Solana
@@ -159,12 +159,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressLatestSolanaApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressLatestSolanaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -196,7 +196,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListTransactionsByAddressSolanaR**](../Model/ListTransactionsByAddressSolanaR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByAddressSolanaR**](../Model/ListTransactionsByAddressSolanaR.md)
 
 ### Authorization
 

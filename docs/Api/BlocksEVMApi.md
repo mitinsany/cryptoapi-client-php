@@ -1,4 +1,4 @@
-# CryptoapisApiClient\BlocksEVMApi
+# MitinSany/CryptoapisApiClient\BlocksEVMApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -15,7 +15,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getBlockDetailsByBlockHashEVM()`
 
 ```php
-getBlockDetailsByBlockHashEVM($blockchain, $network, $blockHash, $context): \CryptoapisApiClient\Model\GetBlockDetailsByBlockHashEVMR
+getBlockDetailsByBlockHashEVM($blockchain, $network, $blockHash, $context): \MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHashEVMR
 ```
 
 Get Block Details By Block Hash EVM
@@ -30,12 +30,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -65,7 +65,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetBlockDetailsByBlockHashEVMR**](../Model/GetBlockDetailsByBlockHashEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHashEVMR**](../Model/GetBlockDetailsByBlockHashEVMR.md)
 
 ### Authorization
 
@@ -83,7 +83,7 @@ try {
 ## `getBlockDetailsByBlockHeightEVM()`
 
 ```php
-getBlockDetailsByBlockHeightEVM($blockchain, $network, $blockHeight, $context): \CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightEVMR
+getBlockDetailsByBlockHeightEVM($blockchain, $network, $blockHeight, $context): \MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightEVMR
 ```
 
 Get Block Details By Block Height EVM
@@ -98,12 +98,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -133,7 +133,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightEVMR**](../Model/GetBlockDetailsByBlockHeightEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightEVMR**](../Model/GetBlockDetailsByBlockHeightEVMR.md)
 
 ### Authorization
 
@@ -151,7 +151,7 @@ try {
 ## `getLastMinedBlockEVM()`
 
 ```php
-getLastMinedBlockEVM($blockchain, $network, $context): \CryptoapisApiClient\Model\GetLastMinedBlockEVMR
+getLastMinedBlockEVM($blockchain, $network, $context): \MitinSany/CryptoapisApiClient\Model\GetLastMinedBlockEVMR
 ```
 
 Get Last Mined Block EVM
@@ -166,12 +166,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -199,7 +199,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetLastMinedBlockEVMR**](../Model/GetLastMinedBlockEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetLastMinedBlockEVMR**](../Model/GetLastMinedBlockEVMR.md)
 
 ### Authorization
 
@@ -217,7 +217,7 @@ try {
 ## `listLatestMinedBlocksEVM()`
 
 ```php
-listLatestMinedBlocksEVM($network, $blockchain, $context, $count): \CryptoapisApiClient\Model\ListLatestMinedBlocksEVMR
+listLatestMinedBlocksEVM($network, $blockchain, $context, $count): \MitinSany/CryptoapisApiClient\Model\ListLatestMinedBlocksEVMR
 ```
 
 List Latest Mined Blocks EVM
@@ -232,12 +232,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -267,7 +267,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListLatestMinedBlocksEVMR**](../Model/ListLatestMinedBlocksEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListLatestMinedBlocksEVMR**](../Model/ListLatestMinedBlocksEVMR.md)
 
 ### Authorization
 
@@ -285,7 +285,7 @@ try {
 ## `listTransactionsByBlockHashEVM()`
 
 ```php
-listTransactionsByBlockHashEVM($blockchain, $network, $blockHash, $context, $limit, $offset): \CryptoapisApiClient\Model\ListTransactionsByBlockHashEVMR
+listTransactionsByBlockHashEVM($blockchain, $network, $blockHash, $context, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHashEVMR
 ```
 
 List Transactions by Block Hash EVM
@@ -300,12 +300,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -339,7 +339,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListTransactionsByBlockHashEVMR**](../Model/ListTransactionsByBlockHashEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHashEVMR**](../Model/ListTransactionsByBlockHashEVMR.md)
 
 ### Authorization
 
@@ -357,7 +357,7 @@ try {
 ## `listTransactionsByBlockHeightEVM()`
 
 ```php
-listTransactionsByBlockHeightEVM($blockchain, $network, $blockHeight, $context, $limit, $offset): \CryptoapisApiClient\Model\ListTransactionsByBlockHeightEVMR
+listTransactionsByBlockHeightEVM($blockchain, $network, $blockHeight, $context, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightEVMR
 ```
 
 List Transactions by Block Height EVM
@@ -372,12 +372,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -411,7 +411,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightEVMR**](../Model/ListTransactionsByBlockHeightEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightEVMR**](../Model/ListTransactionsByBlockHeightEVMR.md)
 
 ### Authorization
 

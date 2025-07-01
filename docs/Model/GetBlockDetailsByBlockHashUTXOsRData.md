@@ -4,6 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**item** | [**\CryptoapisApiClient\Model\GetBlockDetailsByBlockHashUTXOsRI**](GetBlockDetailsByBlockHashUTXOsRI.md) |  |
+**item** | [**\MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHashUTXOsRI**](GetBlockDetailsByBlockHashUTXOsRI.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

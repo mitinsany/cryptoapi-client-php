@@ -1,4 +1,4 @@
-# CryptoapisApiClient\FeaturesApi
+# MitinSany/CryptoapisApiClient\FeaturesApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -10,7 +10,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `deriveHDWalletXPubYPubZPubChangeOrReceivingAddresses()`
 
 ```php
-deriveHDWalletXPubYPubZPubChangeOrReceivingAddresses($blockchain, $extendedPublicKey, $network, $context, $addressFormat, $addressesCount, $isChange, $startIndex): \CryptoapisApiClient\Model\DeriveHDWalletXPubYPubZPubChangeOrReceivingAddressesR
+deriveHDWalletXPubYPubZPubChangeOrReceivingAddresses($blockchain, $extendedPublicKey, $network, $context, $addressFormat, $addressesCount, $isChange, $startIndex): \MitinSany/CryptoapisApiClient\Model\DeriveHDWalletXPubYPubZPubChangeOrReceivingAddressesR
 ```
 
 Derive HD Wallet (xPub, yPub, zPub) Change Or Receiving Addresses
@@ -25,12 +25,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\FeaturesApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\FeaturesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -68,7 +68,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\DeriveHDWalletXPubYPubZPubChangeOrReceivingAddressesR**](../Model/DeriveHDWalletXPubYPubZPubChangeOrReceivingAddressesR.md)
+[**\MitinSany/CryptoapisApiClient\Model\DeriveHDWalletXPubYPubZPubChangeOrReceivingAddressesR**](../Model/DeriveHDWalletXPubYPubZPubChangeOrReceivingAddressesR.md)
 
 ### Authorization
 

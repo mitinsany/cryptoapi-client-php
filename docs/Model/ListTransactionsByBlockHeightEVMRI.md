@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **contract** | **string** | Numeric representation of the transaction contract |
-**fee** | [**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightEVMRIFee**](ListTransactionsByBlockHeightEVMRIFee.md) |  |
+**fee** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightEVMRIFee**](ListTransactionsByBlockHeightEVMRIFee.md) |  |
 **gasLimit** | **int** | String representation of the transaction gas |
 **gasUsed** | **int** | Numeric representation of the transaction gas used |
 **hash** | **string** | String representation of the transaction hash |
@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 **sender** | **string** | String representation of the transaction from address |
 **status** | **string** | String representation of the transaction status |
 **timestapm** | **int** | Numeric representation of the timestamp in seconds since epoch |
-**value** | [**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightEVMRIValue**](ListTransactionsByBlockHeightEVMRIValue.md) |  |
-**gasPrice** | [**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightEVMRIGasPrice**](ListTransactionsByBlockHeightEVMRIGasPrice.md) |  |
+**value** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightEVMRIValue**](ListTransactionsByBlockHeightEVMRIValue.md) |  |
+**gasPrice** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightEVMRIGasPrice**](ListTransactionsByBlockHeightEVMRIGasPrice.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

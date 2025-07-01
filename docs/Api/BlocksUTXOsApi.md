@@ -1,4 +1,4 @@
-# CryptoapisApiClient\BlocksUTXOsApi
+# MitinSany/CryptoapisApiClient\BlocksUTXOsApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -15,7 +15,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getBlockDetailsByBlockHashUTXOs()`
 
 ```php
-getBlockDetailsByBlockHashUTXOs($blockchain, $network, $blockHash, $context): \CryptoapisApiClient\Model\GetBlockDetailsByBlockHashUTXOsR
+getBlockDetailsByBlockHashUTXOs($blockchain, $network, $blockHash, $context): \MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHashUTXOsR
 ```
 
 Get Block Details By Block Hash UTXOs
@@ -30,12 +30,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -65,7 +65,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetBlockDetailsByBlockHashUTXOsR**](../Model/GetBlockDetailsByBlockHashUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHashUTXOsR**](../Model/GetBlockDetailsByBlockHashUTXOsR.md)
 
 ### Authorization
 
@@ -83,7 +83,7 @@ try {
 ## `getBlockDetailsByBlockHeightUTXOs()`
 
 ```php
-getBlockDetailsByBlockHeightUTXOs($blockchain, $network, $blockHeight, $context): \CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightUTXOsR
+getBlockDetailsByBlockHeightUTXOs($blockchain, $network, $blockHeight, $context): \MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightUTXOsR
 ```
 
 Get Block Details By Block Height UTXOs
@@ -98,12 +98,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -133,7 +133,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightUTXOsR**](../Model/GetBlockDetailsByBlockHeightUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightUTXOsR**](../Model/GetBlockDetailsByBlockHeightUTXOsR.md)
 
 ### Authorization
 
@@ -151,7 +151,7 @@ try {
 ## `getLastMinedBlockUTXOs()`
 
 ```php
-getLastMinedBlockUTXOs($blockchain, $network, $context): \CryptoapisApiClient\Model\GetLastMinedBlockUTXOsR
+getLastMinedBlockUTXOs($blockchain, $network, $context): \MitinSany/CryptoapisApiClient\Model\GetLastMinedBlockUTXOsR
 ```
 
 Get Last Mined Block UTXOs
@@ -166,12 +166,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -199,7 +199,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetLastMinedBlockUTXOsR**](../Model/GetLastMinedBlockUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetLastMinedBlockUTXOsR**](../Model/GetLastMinedBlockUTXOsR.md)
 
 ### Authorization
 
@@ -217,7 +217,7 @@ try {
 ## `listLatestMinedBlocksUTXOs()`
 
 ```php
-listLatestMinedBlocksUTXOs($network, $blockchain, $context, $count): \CryptoapisApiClient\Model\ListLatestMinedBlocksUTXOsR
+listLatestMinedBlocksUTXOs($network, $blockchain, $context, $count): \MitinSany/CryptoapisApiClient\Model\ListLatestMinedBlocksUTXOsR
 ```
 
 List Latest Mined Blocks UTXOs
@@ -232,12 +232,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -267,7 +267,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListLatestMinedBlocksUTXOsR**](../Model/ListLatestMinedBlocksUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListLatestMinedBlocksUTXOsR**](../Model/ListLatestMinedBlocksUTXOsR.md)
 
 ### Authorization
 
@@ -285,7 +285,7 @@ try {
 ## `listTransactionsByBlockHashUTXOs()`
 
 ```php
-listTransactionsByBlockHashUTXOs($blockchain, $network, $blockHash, $context, $limit, $offset): \CryptoapisApiClient\Model\ListTransactionsByBlockHashUTXOsR
+listTransactionsByBlockHashUTXOs($blockchain, $network, $blockHash, $context, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHashUTXOsR
 ```
 
 List Transactions by Block Hash UTXOs
@@ -300,12 +300,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -339,7 +339,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListTransactionsByBlockHashUTXOsR**](../Model/ListTransactionsByBlockHashUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHashUTXOsR**](../Model/ListTransactionsByBlockHashUTXOsR.md)
 
 ### Authorization
 
@@ -357,7 +357,7 @@ try {
 ## `listTransactionsByBlockHeightUTXOs()`
 
 ```php
-listTransactionsByBlockHeightUTXOs($blockchain, $network, $blockHeight, $context, $limit, $offset): \CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsR
+listTransactionsByBlockHeightUTXOs($blockchain, $network, $blockHeight, $context, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsR
 ```
 
 List Transactions by Block Height UTXOs
@@ -372,12 +372,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -411,7 +411,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsR**](../Model/ListTransactionsByBlockHeightUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightUTXOsR**](../Model/ListTransactionsByBlockHeightUTXOsR.md)
 
 ### Authorization
 

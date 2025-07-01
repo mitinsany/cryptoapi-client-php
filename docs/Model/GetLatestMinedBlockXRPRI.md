@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **previousBlockHash** | **string** | Represents the hash of the previous block, also known as the parent block. |
 **timestamp** | **int** | Defines the exact date/time when this block was mined in Unix Timestamp. |
 **transactionsCount** | **int** | Represents the total number of all transactions as part of this block. |
-**totalCoins** | [**\CryptoapisApiClient\Model\GetLatestMinedBlockXRPRITotalCoins**](GetLatestMinedBlockXRPRITotalCoins.md) |  |
-**totalFees** | [**\CryptoapisApiClient\Model\GetLatestMinedBlockXRPRITotalFees**](GetLatestMinedBlockXRPRITotalFees.md) |  |
+**totalCoins** | [**\MitinSany/CryptoapisApiClient\Model\GetLatestMinedBlockXRPRITotalCoins**](GetLatestMinedBlockXRPRITotalCoins.md) |  |
+**totalFees** | [**\MitinSany/CryptoapisApiClient\Model\GetLatestMinedBlockXRPRITotalFees**](GetLatestMinedBlockXRPRITotalFees.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

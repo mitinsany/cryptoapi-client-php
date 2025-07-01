@@ -1,4 +1,4 @@
-# CryptoapisApiClient\ContractsSolanaApi
+# MitinSany/CryptoapisApiClient\ContractsSolanaApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -10,7 +10,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getTokenDetailsByContractAddressSolana()`
 
 ```php
-getTokenDetailsByContractAddressSolana($network, $contractAddress, $context): \CryptoapisApiClient\Model\GetTokenDetailsByContractAddressSolanaR
+getTokenDetailsByContractAddressSolana($network, $contractAddress, $context): \MitinSany/CryptoapisApiClient\Model\GetTokenDetailsByContractAddressSolanaR
 ```
 
 Get Token Details by Contract Address Solana
@@ -25,12 +25,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ContractsSolanaApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ContractsSolanaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -58,7 +58,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetTokenDetailsByContractAddressSolanaR**](../Model/GetTokenDetailsByContractAddressSolanaR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetTokenDetailsByContractAddressSolanaR**](../Model/GetTokenDetailsByContractAddressSolanaR.md)
 
 ### Authorization
 

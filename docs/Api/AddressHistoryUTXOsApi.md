@@ -1,4 +1,4 @@
-# CryptoapisApiClient\AddressHistoryUTXOsApi
+# MitinSany/CryptoapisApiClient\AddressHistoryUTXOsApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -12,7 +12,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getAddressBalanceUTXOs()`
 
 ```php
-getAddressBalanceUTXOs($blockchain, $network, $address, $context): \CryptoapisApiClient\Model\GetAddressBalanceUTXOsR
+getAddressBalanceUTXOs($blockchain, $network, $address, $context): \MitinSany/CryptoapisApiClient\Model\GetAddressBalanceUTXOsR
 ```
 
 Get Address Balance UTXOs
@@ -27,12 +27,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressHistoryUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressHistoryUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -62,7 +62,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetAddressBalanceUTXOsR**](../Model/GetAddressBalanceUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetAddressBalanceUTXOsR**](../Model/GetAddressBalanceUTXOsR.md)
 
 ### Authorization
 
@@ -80,7 +80,7 @@ try {
 ## `listConfirmedTransactionsByAddressUTXOHistorical()`
 
 ```php
-listConfirmedTransactionsByAddressUTXOHistorical($blockchain, $network, $address, $context, $limit, $startingAfter, $sortingOrder): \CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalR
+listConfirmedTransactionsByAddressUTXOHistorical($blockchain, $network, $address, $context, $limit, $startingAfter, $sortingOrder): \MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalR
 ```
 
 List Confirmed Transactions By Address UTXO Historical
@@ -95,12 +95,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressHistoryUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressHistoryUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -136,7 +136,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalR**](../Model/ListConfirmedTransactionsByAddressUTXOHistoricalR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressUTXOHistoricalR**](../Model/ListConfirmedTransactionsByAddressUTXOHistoricalR.md)
 
 ### Authorization
 
@@ -154,7 +154,7 @@ try {
 ## `listUnspentTransactionOutputsByAddressUTXOs()`
 
 ```php
-listUnspentTransactionOutputsByAddressUTXOs($blockchain, $network, $address, $context, $limit, $offset): \CryptoapisApiClient\Model\ListUnspentTransactionOutputsByAddressUTXOsR
+listUnspentTransactionOutputsByAddressUTXOs($blockchain, $network, $address, $context, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListUnspentTransactionOutputsByAddressUTXOsR
 ```
 
 List Unspent Transaction Outputs By Address UTXOs
@@ -169,12 +169,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressHistoryUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressHistoryUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -208,7 +208,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListUnspentTransactionOutputsByAddressUTXOsR**](../Model/ListUnspentTransactionOutputsByAddressUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListUnspentTransactionOutputsByAddressUTXOsR**](../Model/ListUnspentTransactionOutputsByAddressUTXOsR.md)
 
 ### Authorization
 

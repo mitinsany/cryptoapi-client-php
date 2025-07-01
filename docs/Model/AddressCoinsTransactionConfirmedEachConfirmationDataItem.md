@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **blockchain** | **string** | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. |
 **network** | **string** | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot;, \&quot;nile\&quot; are test networks. |
 **address** | **string** | Defines the specific address to which the transaction has been sent. |
-**minedInBlock** | [**\CryptoapisApiClient\Model\AddressCoinsTransactionConfirmedEachConfirmationDataItemMinedInBlock**](AddressCoinsTransactionConfirmedEachConfirmationDataItemMinedInBlock.md) |  |
+**minedInBlock** | [**\MitinSany/CryptoapisApiClient\Model\AddressCoinsTransactionConfirmedEachConfirmationDataItemMinedInBlock**](AddressCoinsTransactionConfirmedEachConfirmationDataItemMinedInBlock.md) |  |
 **transactionId** | **string** | Defines the unique ID of the specific transaction, i.e. its identification number. |
 **currentConfirmations** | **int** | Defines the number of currently received confirmations for the transaction. |
 **targetConfirmations** | **int** | Defines the number of confirmation transactions requested as callbacks, i.e. the system can notify till the n-th confirmation. |

@@ -9,8 +9,8 @@ Name | Type | Description | Notes
 **nextBlockHash** | **string** | Represents the hash of the next block. When this is the last block of the blockchain this value will be an empty string. |
 **previousBlockHash** | **string** | Represents the hash of the previous block, also known as the parent block. |
 **timestamp** | **int** | Defines the exact date/time when this block was mined in Unix Timestamp. |
-**totalCoins** | [**\CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightXRPRITotalCoins**](GetBlockDetailsByBlockHeightXRPRITotalCoins.md) |  |
-**totalFees** | [**\CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightXRPRITotalFees**](GetBlockDetailsByBlockHeightXRPRITotalFees.md) |  |
+**totalCoins** | [**\MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightXRPRITotalCoins**](GetBlockDetailsByBlockHeightXRPRITotalCoins.md) |  |
+**totalFees** | [**\MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightXRPRITotalFees**](GetBlockDetailsByBlockHeightXRPRITotalFees.md) |  |
 **transactionsCount** | **int** | Represents the total number of all transactions as part of this block. |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

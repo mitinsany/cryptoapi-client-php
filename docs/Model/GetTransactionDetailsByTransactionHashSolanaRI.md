@@ -4,14 +4,14 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**fee** | [**\CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashSolanaRIFee**](GetTransactionDetailsByTransactionHashSolanaRIFee.md) |  |
-**nativeBalanceChanges** | [**\CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashSolanaRINativeBalanceChangesInner[]**](GetTransactionDetailsByTransactionHashSolanaRINativeBalanceChangesInner.md) | Object Array representation of the transactions native (SOL) balance changes of each address |
-**nativeMovements** | [**\CryptoapisApiClient\Model\ListTransactionsByAddressSolanaRINativeMovementsInner[]**](ListTransactionsByAddressSolanaRINativeMovementsInner.md) | Object Array representation of the transactions native movements |
+**fee** | [**\MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashSolanaRIFee**](GetTransactionDetailsByTransactionHashSolanaRIFee.md) |  |
+**nativeBalanceChanges** | [**\MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashSolanaRINativeBalanceChangesInner[]**](GetTransactionDetailsByTransactionHashSolanaRINativeBalanceChangesInner.md) | Object Array representation of the transactions native (SOL) balance changes of each address |
+**nativeMovements** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByAddressSolanaRINativeMovementsInner[]**](ListTransactionsByAddressSolanaRINativeMovementsInner.md) | Object Array representation of the transactions native movements |
 **signature** | **string** | String representation of the transaction&#39;s signature |
 **signer** | **string** | String representation of the transaction&#39;s signer |
 **timestamp** | **int** | Numeric representation of the transaction&#39;s timestamp |
-**tokenBalanceChanges** | [**\CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashSolanaRITokenBalanceChangesInner[]**](GetTransactionDetailsByTransactionHashSolanaRITokenBalanceChangesInner.md) | Object Array representation of the transactions token (SPL) balance changes of each address and token |
-**tokenMovements** | [**\CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashSolanaRITokenMovementsInner[]**](GetTransactionDetailsByTransactionHashSolanaRITokenMovementsInner.md) | Object Array representation of the transactions token movements |
-**minedInBlock** | [**\CryptoapisApiClient\Model\ListTransactionsByAddressSolanaRIMinedInBlock**](ListTransactionsByAddressSolanaRIMinedInBlock.md) |  |
+**tokenBalanceChanges** | [**\MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashSolanaRITokenBalanceChangesInner[]**](GetTransactionDetailsByTransactionHashSolanaRITokenBalanceChangesInner.md) | Object Array representation of the transactions token (SPL) balance changes of each address and token |
+**tokenMovements** | [**\MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashSolanaRITokenMovementsInner[]**](GetTransactionDetailsByTransactionHashSolanaRITokenMovementsInner.md) | Object Array representation of the transactions token movements |
+**minedInBlock** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByAddressSolanaRIMinedInBlock**](ListTransactionsByAddressSolanaRIMinedInBlock.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

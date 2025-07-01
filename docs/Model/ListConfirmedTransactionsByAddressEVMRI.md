@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **contract** | **string** | String representation of the transaction contract address |
-**fee** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMRIFee**](ListConfirmedTransactionsByAddressEVMRIFee.md) |  |
+**fee** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMRIFee**](ListConfirmedTransactionsByAddressEVMRIFee.md) |  |
 **gasLimit** | **int** | String representation of the transaction gas limit |
 **gasUsed** | **int** | String representation of the transaction used gas |
 **hash** | **string** | String representation of the transaction hash |
@@ -15,9 +15,9 @@ Name | Type | Description | Notes
 **sender** | **string** | String representation of the transaction from address |
 **status** | **string** | String representation of the transaction status |
 **timestamp** | **int** | Numeric representation of the timestamp in seconds since epoch |
-**gasPrice** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMRIGasPrice**](ListConfirmedTransactionsByAddressEVMRIGasPrice.md) |  |
-**minedInBlock** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMRIMinedInBlock**](ListConfirmedTransactionsByAddressEVMRIMinedInBlock.md) |  |
-**value** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMRIValue**](ListConfirmedTransactionsByAddressEVMRIValue.md) |  |
-**blockchainSpecific** | [**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMRIBST**](ListConfirmedTransactionsByAddressEVMRIBST.md) |  | [optional]
+**gasPrice** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMRIGasPrice**](ListConfirmedTransactionsByAddressEVMRIGasPrice.md) |  |
+**minedInBlock** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMRIMinedInBlock**](ListConfirmedTransactionsByAddressEVMRIMinedInBlock.md) |  |
+**value** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMRIValue**](ListConfirmedTransactionsByAddressEVMRIValue.md) |  |
+**blockchainSpecific** | [**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressEVMRIBST**](ListConfirmedTransactionsByAddressEVMRIBST.md) |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

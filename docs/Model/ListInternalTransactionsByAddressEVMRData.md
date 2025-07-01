@@ -9,6 +9,6 @@ Name | Type | Description | Notes
 **hasMore** | **bool** | Defines whether or not there are more elements available after this set. |
 **nextStartingAfter** | **string** | Defines the id of the next page which the next list should start from. | [optional]
 **sortingOrder** | **string** | Defines what the sorting order is either ascending or descending. | [optional]
-**items** | [**\CryptoapisApiClient\Model\ListInternalTransactionsByAddressEVMRI[]**](ListInternalTransactionsByAddressEVMRI.md) |  |
+**items** | [**\MitinSany/CryptoapisApiClient\Model\ListInternalTransactionsByAddressEVMRI[]**](ListInternalTransactionsByAddressEVMRI.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -1,4 +1,4 @@
-# CryptoapisApiClient\BlockchainFeesUTXOsApi
+# MitinSany/CryptoapisApiClient\BlockchainFeesUTXOsApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -11,7 +11,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `estimateTransactionSmartFeeUTXOs()`
 
 ```php
-estimateTransactionSmartFeeUTXOs($blockchain, $network, $context, $confirmationTarget, $estimateMode): \CryptoapisApiClient\Model\EstimateTransactionSmartFeeUTXOsR
+estimateTransactionSmartFeeUTXOs($blockchain, $network, $context, $confirmationTarget, $estimateMode): \MitinSany/CryptoapisApiClient\Model\EstimateTransactionSmartFeeUTXOsR
 ```
 
 Estimate Transaction Smart Fee UTXOs
@@ -26,12 +26,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlockchainFeesUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlockchainFeesUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -63,7 +63,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\EstimateTransactionSmartFeeUTXOsR**](../Model/EstimateTransactionSmartFeeUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\EstimateTransactionSmartFeeUTXOsR**](../Model/EstimateTransactionSmartFeeUTXOsR.md)
 
 ### Authorization
 
@@ -81,7 +81,7 @@ try {
 ## `getFeeRecommendationsUTXOs()`
 
 ```php
-getFeeRecommendationsUTXOs($blockchain, $network, $context): \CryptoapisApiClient\Model\GetFeeRecommendationsUTXOsR
+getFeeRecommendationsUTXOs($blockchain, $network, $context): \MitinSany/CryptoapisApiClient\Model\GetFeeRecommendationsUTXOsR
 ```
 
 Get Fee Recommendations UTXOs
@@ -96,12 +96,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlockchainFeesUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlockchainFeesUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -129,7 +129,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetFeeRecommendationsUTXOsR**](../Model/GetFeeRecommendationsUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetFeeRecommendationsUTXOsR**](../Model/GetFeeRecommendationsUTXOsR.md)
 
 ### Authorization
 

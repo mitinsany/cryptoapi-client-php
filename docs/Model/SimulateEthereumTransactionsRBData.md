@@ -4,6 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**item** | [**\CryptoapisApiClient\Model\SimulateEthereumTransactionsRBDataItem**](SimulateEthereumTransactionsRBDataItem.md) |  |
+**item** | [**\MitinSany/CryptoapisApiClient\Model\SimulateEthereumTransactionsRBDataItem**](SimulateEthereumTransactionsRBDataItem.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

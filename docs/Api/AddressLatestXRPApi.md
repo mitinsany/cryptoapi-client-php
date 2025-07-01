@@ -1,4 +1,4 @@
-# CryptoapisApiClient\AddressLatestXRPApi
+# MitinSany/CryptoapisApiClient\AddressLatestXRPApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -12,7 +12,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getAddressBalanceXRP()`
 
 ```php
-getAddressBalanceXRP($network, $address, $context): \CryptoapisApiClient\Model\GetAddressBalanceXRPR
+getAddressBalanceXRP($network, $address, $context): \MitinSany/CryptoapisApiClient\Model\GetAddressBalanceXRPR
 ```
 
 Get Address Balance XRP
@@ -27,12 +27,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressLatestXRPApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressLatestXRPApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -60,7 +60,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetAddressBalanceXRPR**](../Model/GetAddressBalanceXRPR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetAddressBalanceXRPR**](../Model/GetAddressBalanceXRPR.md)
 
 ### Authorization
 
@@ -78,7 +78,7 @@ try {
 ## `listTransactionsByAddressXRP()`
 
 ```php
-listTransactionsByAddressXRP($network, $address, $context, $limit, $sortingOrder, $startingAfter, $transactionType): \CryptoapisApiClient\Model\ListTransactionsByAddressXRPR
+listTransactionsByAddressXRP($network, $address, $context, $limit, $sortingOrder, $startingAfter, $transactionType): \MitinSany/CryptoapisApiClient\Model\ListTransactionsByAddressXRPR
 ```
 
 List Transactions by Address XRP
@@ -93,12 +93,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressLatestXRPApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressLatestXRPApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -134,7 +134,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListTransactionsByAddressXRPR**](../Model/ListTransactionsByAddressXRPR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByAddressXRPR**](../Model/ListTransactionsByAddressXRPR.md)
 
 ### Authorization
 
@@ -152,7 +152,7 @@ try {
 ## `nextAvailableSequenceXRP()`
 
 ```php
-nextAvailableSequenceXRP($network, $address, $context): \CryptoapisApiClient\Model\NextAvailableSequenceXRPR
+nextAvailableSequenceXRP($network, $address, $context): \MitinSany/CryptoapisApiClient\Model\NextAvailableSequenceXRPR
 ```
 
 Next Available Sequence XRP
@@ -167,12 +167,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressLatestXRPApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressLatestXRPApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -200,7 +200,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\NextAvailableSequenceXRPR**](../Model/NextAvailableSequenceXRPR.md)
+[**\MitinSany/CryptoapisApiClient\Model\NextAvailableSequenceXRPR**](../Model/NextAvailableSequenceXRPR.md)
 
 ### Authorization
 

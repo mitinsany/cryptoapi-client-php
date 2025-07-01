@@ -10,8 +10,8 @@ Name | Type | Description | Notes
 **recipient** | **string** | Represents a recipient addresses. In account-based protocols like Ethereum there is only one address in this list. |
 **sender** | **string** | Represents a sender address with the respective amount. In account-based protocols like Ethereum there is only one address in this list. |
 **sigHash** | **string** | Representation of the hash that should be signed. |
-**value** | [**\CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRIValue**](PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRIValue.md) |  |
-**fee** | [**\CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRIFee**](PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRIFee.md) |  |
+**value** | [**\MitinSany/CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRIValue**](PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRIValue.md) |  |
+**fee** | [**\MitinSany/CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRIFee**](PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRIFee.md) |  |
 **type** | **string** | Representation of the transaction type |
 **gasLimit** | **int** | Represents the amount of gas used by this specific transaction alone. |
 **gasPrice** | **int** | Represents the price offered to the miner to purchase this amount of gas. |

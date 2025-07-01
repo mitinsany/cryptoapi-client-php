@@ -1,4 +1,4 @@
-# CryptoapisApiClient\ExchangeRatesApi
+# MitinSany/CryptoapisApiClient\ExchangeRatesApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -11,7 +11,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getExchangeRateByAssetSymbols()`
 
 ```php
-getExchangeRateByAssetSymbols($fromAssetSymbol, $toAssetSymbol, $context, $calculationTimestamp): \CryptoapisApiClient\Model\GetExchangeRateByAssetSymbolsR
+getExchangeRateByAssetSymbols($fromAssetSymbol, $toAssetSymbol, $context, $calculationTimestamp): \MitinSany/CryptoapisApiClient\Model\GetExchangeRateByAssetSymbolsR
 ```
 
 Get Exchange Rate By Asset Symbols
@@ -26,12 +26,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ExchangeRatesApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ExchangeRatesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -61,7 +61,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetExchangeRateByAssetSymbolsR**](../Model/GetExchangeRateByAssetSymbolsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetExchangeRateByAssetSymbolsR**](../Model/GetExchangeRateByAssetSymbolsR.md)
 
 ### Authorization
 
@@ -79,7 +79,7 @@ try {
 ## `getExchangeRateByAssetsIDs()`
 
 ```php
-getExchangeRateByAssetsIDs($fromAssetId, $toAssetId, $context, $calculationTimestamp): \CryptoapisApiClient\Model\GetExchangeRateByAssetsIDsR
+getExchangeRateByAssetsIDs($fromAssetId, $toAssetId, $context, $calculationTimestamp): \MitinSany/CryptoapisApiClient\Model\GetExchangeRateByAssetsIDsR
 ```
 
 Get Exchange Rate By Assets IDs
@@ -94,12 +94,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ExchangeRatesApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ExchangeRatesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -129,7 +129,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetExchangeRateByAssetsIDsR**](../Model/GetExchangeRateByAssetsIDsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetExchangeRateByAssetsIDsR**](../Model/GetExchangeRateByAssetsIDsR.md)
 
 ### Authorization
 

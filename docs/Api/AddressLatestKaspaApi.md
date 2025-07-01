@@ -1,4 +1,4 @@
-# CryptoapisApiClient\AddressLatestKaspaApi
+# MitinSany/CryptoapisApiClient\AddressLatestKaspaApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -11,7 +11,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getAddressBalanceKaspa()`
 
 ```php
-getAddressBalanceKaspa($network, $address, $context): \CryptoapisApiClient\Model\GetAddressBalanceKaspaR
+getAddressBalanceKaspa($network, $address, $context): \MitinSany/CryptoapisApiClient\Model\GetAddressBalanceKaspaR
 ```
 
 Get Address Balance Kaspa
@@ -26,12 +26,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressLatestKaspaApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressLatestKaspaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -59,7 +59,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetAddressBalanceKaspaR**](../Model/GetAddressBalanceKaspaR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetAddressBalanceKaspaR**](../Model/GetAddressBalanceKaspaR.md)
 
 ### Authorization
 
@@ -77,7 +77,7 @@ try {
 ## `listConfirmedTransactionsByAddressKaspa()`
 
 ```php
-listConfirmedTransactionsByAddressKaspa($network, $address, $context, $limit, $startingAfter): \CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressKaspaR
+listConfirmedTransactionsByAddressKaspa($network, $address, $context, $limit, $startingAfter): \MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressKaspaR
 ```
 
 List Confirmed Transactions By Address Kaspa
@@ -92,12 +92,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AddressLatestKaspaApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AddressLatestKaspaApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -129,7 +129,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressKaspaR**](../Model/ListConfirmedTransactionsByAddressKaspaR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListConfirmedTransactionsByAddressKaspaR**](../Model/ListConfirmedTransactionsByAddressKaspaR.md)
 
 ### Authorization
 

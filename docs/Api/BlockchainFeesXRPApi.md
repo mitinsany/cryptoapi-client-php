@@ -1,4 +1,4 @@
-# CryptoapisApiClient\BlockchainFeesXRPApi
+# MitinSany/CryptoapisApiClient\BlockchainFeesXRPApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -10,7 +10,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getFeeRecommendationsXRP()`
 
 ```php
-getFeeRecommendationsXRP($network, $context): \CryptoapisApiClient\Model\GetFeeRecommendationsXRPR
+getFeeRecommendationsXRP($network, $context): \MitinSany/CryptoapisApiClient\Model\GetFeeRecommendationsXRPR
 ```
 
 Get Fee Recommendations XRP
@@ -25,12 +25,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlockchainFeesXRPApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlockchainFeesXRPApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -56,7 +56,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetFeeRecommendationsXRPR**](../Model/GetFeeRecommendationsXRPR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetFeeRecommendationsXRPR**](../Model/GetFeeRecommendationsXRPR.md)
 
 ### Authorization
 

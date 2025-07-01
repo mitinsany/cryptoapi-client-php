@@ -12,10 +12,10 @@ Name | Type | Description | Notes
 **status** | **string** | Defines the status of the transaction. |
 **timestamp** | **int** | Defines the exact date/time in Unix Timestamp when this transaction was mined, confirmed or first seen in Mempool, if it is unconfirmed. |
 **type** | **string** | Specifies the type of the transaction. |
-**fee** | [**\CryptoapisApiClient\Model\ListTransactionsByAddressXRPRIFee**](ListTransactionsByAddressXRPRIFee.md) |  |
-**minedInBlock** | [**\CryptoapisApiClient\Model\ListTransactionsByAddressXRPRIMinedInBlock**](ListTransactionsByAddressXRPRIMinedInBlock.md) |  |
-**offer** | [**\CryptoapisApiClient\Model\ListTransactionsByAddressXRPRIOffer**](ListTransactionsByAddressXRPRIOffer.md) |  |
-**receive** | [**\CryptoapisApiClient\Model\ListTransactionsByAddressXRPRIReceive**](ListTransactionsByAddressXRPRIReceive.md) |  |
-**value** | [**\CryptoapisApiClient\Model\ListTransactionsByAddressXRPRIValue**](ListTransactionsByAddressXRPRIValue.md) |  |
+**fee** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByAddressXRPRIFee**](ListTransactionsByAddressXRPRIFee.md) |  |
+**minedInBlock** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByAddressXRPRIMinedInBlock**](ListTransactionsByAddressXRPRIMinedInBlock.md) |  |
+**offer** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByAddressXRPRIOffer**](ListTransactionsByAddressXRPRIOffer.md) |  |
+**receive** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByAddressXRPRIReceive**](ListTransactionsByAddressXRPRIReceive.md) |  |
+**value** | [**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByAddressXRPRIValue**](ListTransactionsByAddressXRPRIValue.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

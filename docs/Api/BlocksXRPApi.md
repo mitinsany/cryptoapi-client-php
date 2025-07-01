@@ -1,4 +1,4 @@
-# CryptoapisApiClient\BlocksXRPApi
+# MitinSany/CryptoapisApiClient\BlocksXRPApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -15,7 +15,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getBlockDetailsByBlockHashXRP()`
 
 ```php
-getBlockDetailsByBlockHashXRP($network, $blockHash, $context): \CryptoapisApiClient\Model\GetBlockDetailsByBlockHashXRPR
+getBlockDetailsByBlockHashXRP($network, $blockHash, $context): \MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHashXRPR
 ```
 
 Get Block Details By Block Hash XRP
@@ -30,12 +30,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksXRPApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksXRPApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -63,7 +63,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetBlockDetailsByBlockHashXRPR**](../Model/GetBlockDetailsByBlockHashXRPR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHashXRPR**](../Model/GetBlockDetailsByBlockHashXRPR.md)
 
 ### Authorization
 
@@ -81,7 +81,7 @@ try {
 ## `getBlockDetailsByBlockHeightXRP()`
 
 ```php
-getBlockDetailsByBlockHeightXRP($network, $blockHeight, $context): \CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightXRPR
+getBlockDetailsByBlockHeightXRP($network, $blockHeight, $context): \MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightXRPR
 ```
 
 Get Block Details By Block Height XRP
@@ -96,12 +96,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksXRPApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksXRPApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -129,7 +129,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightXRPR**](../Model/GetBlockDetailsByBlockHeightXRPR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightXRPR**](../Model/GetBlockDetailsByBlockHeightXRPR.md)
 
 ### Authorization
 
@@ -147,7 +147,7 @@ try {
 ## `getLatestMinedBlockXRP()`
 
 ```php
-getLatestMinedBlockXRP($network, $context): \CryptoapisApiClient\Model\GetLatestMinedBlockXRPR
+getLatestMinedBlockXRP($network, $context): \MitinSany/CryptoapisApiClient\Model\GetLatestMinedBlockXRPR
 ```
 
 Get Latest Mined Block XRP
@@ -162,12 +162,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksXRPApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksXRPApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -193,7 +193,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetLatestMinedBlockXRPR**](../Model/GetLatestMinedBlockXRPR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetLatestMinedBlockXRPR**](../Model/GetLatestMinedBlockXRPR.md)
 
 ### Authorization
 
@@ -211,7 +211,7 @@ try {
 ## `listLatestMinedBlocksXRP()`
 
 ```php
-listLatestMinedBlocksXRP($network, $context, $count): \CryptoapisApiClient\Model\ListLatestMinedBlocksXRPR
+listLatestMinedBlocksXRP($network, $context, $count): \MitinSany/CryptoapisApiClient\Model\ListLatestMinedBlocksXRPR
 ```
 
 List Latest Mined Blocks XRP
@@ -226,12 +226,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksXRPApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksXRPApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -259,7 +259,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListLatestMinedBlocksXRPR**](../Model/ListLatestMinedBlocksXRPR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListLatestMinedBlocksXRPR**](../Model/ListLatestMinedBlocksXRPR.md)
 
 ### Authorization
 
@@ -277,7 +277,7 @@ try {
 ## `listTransactionsByBlockHashXRP()`
 
 ```php
-listTransactionsByBlockHashXRP($network, $blockHash, $context, $limit, $offset): \CryptoapisApiClient\Model\ListTransactionsByBlockHashXRPR
+listTransactionsByBlockHashXRP($network, $blockHash, $context, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHashXRPR
 ```
 
 List Transactions By Block Hash XRP
@@ -292,12 +292,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksXRPApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksXRPApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -329,7 +329,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListTransactionsByBlockHashXRPR**](../Model/ListTransactionsByBlockHashXRPR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHashXRPR**](../Model/ListTransactionsByBlockHashXRPR.md)
 
 ### Authorization
 
@@ -347,7 +347,7 @@ try {
 ## `listTransactionsByBlockHeightXRP()`
 
 ```php
-listTransactionsByBlockHeightXRP($network, $blockHeight, $context, $limit, $offset): \CryptoapisApiClient\Model\ListTransactionsByBlockHeightXRPR
+listTransactionsByBlockHeightXRP($network, $blockHeight, $context, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightXRPR
 ```
 
 List Transactions By Block Height XRP
@@ -362,12 +362,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BlocksXRPApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BlocksXRPApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -399,7 +399,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListTransactionsByBlockHeightXRPR**](../Model/ListTransactionsByBlockHeightXRPR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListTransactionsByBlockHeightXRPR**](../Model/ListTransactionsByBlockHeightXRPR.md)
 
 ### Authorization
 

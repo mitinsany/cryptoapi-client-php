@@ -4,9 +4,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**fungibleValues** | [**\CryptoapisApiClient\Model\GetSyncedAddressTokensTransferEVMRITokenDataFungibleValues**](GetSyncedAddressTokensTransferEVMRITokenDataFungibleValues.md) |  |
+**fungibleValues** | [**\MitinSany/CryptoapisApiClient\Model\GetSyncedAddressTokensTransferEVMRITokenDataFungibleValues**](GetSyncedAddressTokensTransferEVMRITokenDataFungibleValues.md) |  |
 **name** | **string** | String representation of the token name |
-**nonFungibleValues** | [**\CryptoapisApiClient\Model\GetSyncedAddressTokensTransferEVMRITokenDataNonFungibleValues**](GetSyncedAddressTokensTransferEVMRITokenDataNonFungibleValues.md) |  | [optional]
+**nonFungibleValues** | [**\MitinSany/CryptoapisApiClient\Model\GetSyncedAddressTokensTransferEVMRITokenDataNonFungibleValues**](GetSyncedAddressTokensTransferEVMRITokenDataNonFungibleValues.md) |  | [optional]
 **symbol** | **string** | String representation of the token symbol |
 **contractAddress** | **string** | String representation of contract address of the token that was transfered |
 **standard** | **string** | Defines the specific token type. |

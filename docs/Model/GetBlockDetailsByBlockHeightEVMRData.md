@@ -4,6 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**item** | [**\CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightEVMRI**](GetBlockDetailsByBlockHeightEVMRI.md) |  |
+**item** | [**\MitinSany/CryptoapisApiClient\Model\GetBlockDetailsByBlockHeightEVMRI**](GetBlockDetailsByBlockHeightEVMRI.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

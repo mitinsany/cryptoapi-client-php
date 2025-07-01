@@ -4,6 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**item** | [**\CryptoapisApiClient\Model\NewBlockRI**](NewBlockRI.md) |  |
+**item** | [**\MitinSany/CryptoapisApiClient\Model\NewBlockRI**](NewBlockRI.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

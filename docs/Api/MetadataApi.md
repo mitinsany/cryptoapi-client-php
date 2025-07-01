@@ -1,4 +1,4 @@
-# CryptoapisApiClient\MetadataApi
+# MitinSany/CryptoapisApiClient\MetadataApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -10,7 +10,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `listSupportedAssets()`
 
 ```php
-listSupportedAssets($context, $limit, $offset, $type): \CryptoapisApiClient\Model\ListSupportedAssetsR
+listSupportedAssets($context, $limit, $offset, $type): \MitinSany/CryptoapisApiClient\Model\ListSupportedAssetsR
 ```
 
 List Supported Assets
@@ -25,12 +25,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\MetadataApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\MetadataApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -60,7 +60,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListSupportedAssetsR**](../Model/ListSupportedAssetsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListSupportedAssetsR**](../Model/ListSupportedAssetsR.md)
 
 ### Authorization
 

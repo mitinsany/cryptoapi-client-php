@@ -1,4 +1,4 @@
-# CryptoapisApiClient\BroadcastLocallySignTransactionsApi
+# MitinSany/CryptoapisApiClient\BroadcastLocallySignTransactionsApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -10,7 +10,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `broadcastLocallySignedTransaction()`
 
 ```php
-broadcastLocallySignedTransaction($blockchain, $network, $context, $broadcastLocallySignedTransactionRB): \CryptoapisApiClient\Model\BroadcastLocallySignedTransactionR
+broadcastLocallySignedTransaction($blockchain, $network, $context, $broadcastLocallySignedTransactionRB): \MitinSany/CryptoapisApiClient\Model\BroadcastLocallySignedTransactionR
 ```
 
 Broadcast Locally Signed Transaction
@@ -25,12 +25,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\BroadcastLocallySignTransactionsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\BroadcastLocallySignTransactionsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -39,7 +39,7 @@ $apiInstance = new CryptoapisApiClient\Api\BroadcastLocallySignTransactionsApi(
 $blockchain = bitcoin; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while network like \"testnet\" is a test network.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$broadcastLocallySignedTransactionRB = new \CryptoapisApiClient\Model\BroadcastLocallySignedTransactionRB(); // \CryptoapisApiClient\Model\BroadcastLocallySignedTransactionRB
+$broadcastLocallySignedTransactionRB = new \MitinSany/CryptoapisApiClient\Model\BroadcastLocallySignedTransactionRB(); // \MitinSany/CryptoapisApiClient\Model\BroadcastLocallySignedTransactionRB
 
 try {
     $result = $apiInstance->broadcastLocallySignedTransaction($blockchain, $network, $context, $broadcastLocallySignedTransactionRB);
@@ -56,11 +56,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while network like \&quot;testnet\&quot; is a test network. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **broadcastLocallySignedTransactionRB** | [**\CryptoapisApiClient\Model\BroadcastLocallySignedTransactionRB**](../Model/BroadcastLocallySignedTransactionRB.md)|  | [optional] |
+| **broadcastLocallySignedTransactionRB** | [**\MitinSany/CryptoapisApiClient\Model\BroadcastLocallySignedTransactionRB**](../Model/BroadcastLocallySignedTransactionRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\BroadcastLocallySignedTransactionR**](../Model/BroadcastLocallySignedTransactionR.md)
+[**\MitinSany/CryptoapisApiClient\Model\BroadcastLocallySignedTransactionR**](../Model/BroadcastLocallySignedTransactionR.md)
 
 ### Authorization
 

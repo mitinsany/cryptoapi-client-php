@@ -4,6 +4,6 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**item** | [**\CryptoapisApiClient\Model\GetExchangeRateByAssetsIDsRI**](GetExchangeRateByAssetsIDsRI.md) |  |
+**item** | [**\MitinSany/CryptoapisApiClient\Model\GetExchangeRateByAssetsIDsRI**](GetExchangeRateByAssetsIDsRI.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **contract** | **string** | String representation of the transaction contract address | [optional]
-**fee** | [**\CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIFee**](GetTransactionDetailsByTransactionHashEVMRIFee.md) |  |
+**fee** | [**\MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIFee**](GetTransactionDetailsByTransactionHashEVMRIFee.md) |  |
 **gasLimit** | **int** | String representation of the transaction gas limit |
 **gasUsed** | **int** | String representation of the transaction used gas |
 **hash** | **string** | String representation of the transaction hash |
@@ -16,9 +16,9 @@ Name | Type | Description | Notes
 **sender** | **string** | String representation of the sender address |
 **status** | **string** | String representation of the transaction status |
 **timestamp** | **int** | Numeric representation of the timestamp in seconds since epoch |
-**value** | [**\CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIValue**](GetTransactionDetailsByTransactionHashEVMRIValue.md) |  |
-**gasPrice** | [**\CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIGasPrice**](GetTransactionDetailsByTransactionHashEVMRIGasPrice.md) |  |
-**minedInBlock** | [**\CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIMinedInBlock**](GetTransactionDetailsByTransactionHashEVMRIMinedInBlock.md) |  |
-**blockchainSpecific** | [**\CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIBS**](GetTransactionDetailsByTransactionHashEVMRIBS.md) |  | [optional]
+**value** | [**\MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIValue**](GetTransactionDetailsByTransactionHashEVMRIValue.md) |  |
+**gasPrice** | [**\MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIGasPrice**](GetTransactionDetailsByTransactionHashEVMRIGasPrice.md) |  |
+**minedInBlock** | [**\MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIMinedInBlock**](GetTransactionDetailsByTransactionHashEVMRIMinedInBlock.md) |  |
+**blockchainSpecific** | [**\MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIBS**](GetTransactionDetailsByTransactionHashEVMRIBS.md) |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

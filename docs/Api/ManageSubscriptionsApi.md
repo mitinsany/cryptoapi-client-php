@@ -1,4 +1,4 @@
-# CryptoapisApiClient\ManageSubscriptionsApi
+# MitinSany/CryptoapisApiClient\ManageSubscriptionsApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -13,7 +13,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `activateBlockchainEventSubscription()`
 
 ```php
-activateBlockchainEventSubscription($blockchain, $network, $referenceId, $context, $activateBlockchainEventSubscriptionRB): \CryptoapisApiClient\Model\ActivateBlockchainEventSubscriptionR
+activateBlockchainEventSubscription($blockchain, $network, $referenceId, $context, $activateBlockchainEventSubscriptionRB): \MitinSany/CryptoapisApiClient\Model\ActivateBlockchainEventSubscriptionR
 ```
 
 Activate Blockchain Event Subscription
@@ -28,12 +28,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ManageSubscriptionsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ManageSubscriptionsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -43,7 +43,7 @@ $blockchain = bitcoin; // string | Represents the specific blockchain protocol n
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $referenceId = bc243c86-0902-4386-b30d-e6b30fa1f2aa; // string | Represents a unique ID used to reference the specific callback subscription.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$activateBlockchainEventSubscriptionRB = new \CryptoapisApiClient\Model\ActivateBlockchainEventSubscriptionRB(); // \CryptoapisApiClient\Model\ActivateBlockchainEventSubscriptionRB
+$activateBlockchainEventSubscriptionRB = new \MitinSany/CryptoapisApiClient\Model\ActivateBlockchainEventSubscriptionRB(); // \MitinSany/CryptoapisApiClient\Model\ActivateBlockchainEventSubscriptionRB
 
 try {
     $result = $apiInstance->activateBlockchainEventSubscription($blockchain, $network, $referenceId, $context, $activateBlockchainEventSubscriptionRB);
@@ -61,11 +61,11 @@ try {
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **referenceId** | **string**| Represents a unique ID used to reference the specific callback subscription. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **activateBlockchainEventSubscriptionRB** | [**\CryptoapisApiClient\Model\ActivateBlockchainEventSubscriptionRB**](../Model/ActivateBlockchainEventSubscriptionRB.md)|  | [optional] |
+| **activateBlockchainEventSubscriptionRB** | [**\MitinSany/CryptoapisApiClient\Model\ActivateBlockchainEventSubscriptionRB**](../Model/ActivateBlockchainEventSubscriptionRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ActivateBlockchainEventSubscriptionR**](../Model/ActivateBlockchainEventSubscriptionR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ActivateBlockchainEventSubscriptionR**](../Model/ActivateBlockchainEventSubscriptionR.md)
 
 ### Authorization
 
@@ -83,7 +83,7 @@ try {
 ## `deleteBlockchainEventSubscription()`
 
 ```php
-deleteBlockchainEventSubscription($blockchain, $network, $referenceId, $context): \CryptoapisApiClient\Model\DeleteBlockchainEventSubscriptionR
+deleteBlockchainEventSubscription($blockchain, $network, $referenceId, $context): \MitinSany/CryptoapisApiClient\Model\DeleteBlockchainEventSubscriptionR
 ```
 
 Delete Blockchain Event Subscription
@@ -98,12 +98,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ManageSubscriptionsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ManageSubscriptionsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -133,7 +133,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\DeleteBlockchainEventSubscriptionR**](../Model/DeleteBlockchainEventSubscriptionR.md)
+[**\MitinSany/CryptoapisApiClient\Model\DeleteBlockchainEventSubscriptionR**](../Model/DeleteBlockchainEventSubscriptionR.md)
 
 ### Authorization
 
@@ -151,7 +151,7 @@ try {
 ## `getBlockchainEventSubscriptionDetailsByReferenceID()`
 
 ```php
-getBlockchainEventSubscriptionDetailsByReferenceID($blockchain, $network, $referenceId, $context): \CryptoapisApiClient\Model\GetBlockchainEventSubscriptionDetailsByReferenceIDR
+getBlockchainEventSubscriptionDetailsByReferenceID($blockchain, $network, $referenceId, $context): \MitinSany/CryptoapisApiClient\Model\GetBlockchainEventSubscriptionDetailsByReferenceIDR
 ```
 
 Get Blockchain Event Subscription Details By Reference ID
@@ -166,12 +166,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ManageSubscriptionsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ManageSubscriptionsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -201,7 +201,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetBlockchainEventSubscriptionDetailsByReferenceIDR**](../Model/GetBlockchainEventSubscriptionDetailsByReferenceIDR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetBlockchainEventSubscriptionDetailsByReferenceIDR**](../Model/GetBlockchainEventSubscriptionDetailsByReferenceIDR.md)
 
 ### Authorization
 
@@ -219,7 +219,7 @@ try {
 ## `listBlockchainEventsSubscriptions()`
 
 ```php
-listBlockchainEventsSubscriptions($blockchain, $network, $context, $limit, $offset): \CryptoapisApiClient\Model\ListBlockchainEventsSubscriptionsR
+listBlockchainEventsSubscriptions($blockchain, $network, $context, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListBlockchainEventsSubscriptionsR
 ```
 
 List Blockchain Events Subscriptions
@@ -234,12 +234,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ManageSubscriptionsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ManageSubscriptionsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -271,7 +271,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListBlockchainEventsSubscriptionsR**](../Model/ListBlockchainEventsSubscriptionsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListBlockchainEventsSubscriptionsR**](../Model/ListBlockchainEventsSubscriptionsR.md)
 
 ### Authorization
 

@@ -4,7 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**signatureData** | [**\CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIBSESignatureData**](GetTransactionDetailsByTransactionHashEVMRIBSESignatureData.md) |  | [optional]
+**signatureData** | [**\MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashEVMRIBSESignatureData**](GetTransactionDetailsByTransactionHashEVMRIBSESignatureData.md) |  | [optional]
 **bandwidth** | **int** | Representats of the bandwidth used for the transaction | [optional]
 **energy** | **int** | Representats of the energy used for the transaction | [optional]
 

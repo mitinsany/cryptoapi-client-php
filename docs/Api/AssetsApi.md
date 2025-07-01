@@ -1,4 +1,4 @@
-# CryptoapisApiClient\AssetsApi
+# MitinSany/CryptoapisApiClient\AssetsApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -11,7 +11,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getAssetDetailsByAssetID()`
 
 ```php
-getAssetDetailsByAssetID($assetId, $context): \CryptoapisApiClient\Model\GetAssetDetailsByAssetIDR
+getAssetDetailsByAssetID($assetId, $context): \MitinSany/CryptoapisApiClient\Model\GetAssetDetailsByAssetIDR
 ```
 
 Get Asset Details By Asset ID
@@ -26,12 +26,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AssetsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AssetsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -57,7 +57,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetAssetDetailsByAssetIDR**](../Model/GetAssetDetailsByAssetIDR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetAssetDetailsByAssetIDR**](../Model/GetAssetDetailsByAssetIDR.md)
 
 ### Authorization
 
@@ -75,7 +75,7 @@ try {
 ## `getAssetDetailsByAssetSymbol()`
 
 ```php
-getAssetDetailsByAssetSymbol($assetSymbol, $context): \CryptoapisApiClient\Model\GetAssetDetailsByAssetSymbolR
+getAssetDetailsByAssetSymbol($assetSymbol, $context): \MitinSany/CryptoapisApiClient\Model\GetAssetDetailsByAssetSymbolR
 ```
 
 Get Asset Details By Asset Symbol
@@ -90,12 +90,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\AssetsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\AssetsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -121,7 +121,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetAssetDetailsByAssetSymbolR**](../Model/GetAssetDetailsByAssetSymbolR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetAssetDetailsByAssetSymbolR**](../Model/GetAssetDetailsByAssetSymbolR.md)
 
 ### Authorization
 

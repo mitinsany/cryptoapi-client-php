@@ -16,6 +16,6 @@ Name | Type | Description | Notes
 **timestamp** | **int** | Defines the exact date/time when this block was mined in Unix Timestamp. |
 **totalDifficulty** | **int** | Defines the total difficulty of the chain until this block, i.e. how difficult it is for a specific miner to mine a new block |
 **transactionsCount** | **int** | Represents the total number of all transactions as part of this block. |
-**blockchainSpecific** | [**\CryptoapisApiClient\Model\ListLatestMinedBlocksEVMRIBST**](ListLatestMinedBlocksEVMRIBST.md) |  | [optional]
+**blockchainSpecific** | [**\MitinSany/CryptoapisApiClient\Model\ListLatestMinedBlocksEVMRIBST**](ListLatestMinedBlocksEVMRIBST.md) |  | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

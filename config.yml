@@ -1,7 +1,8 @@
 additionalProperties:
-  licenseName: "GPL-3"
+  licenseName: "MIT"
   variableNamingConvention: "camelCase"
   modern: "true"
-  packageName: "CryptoapisApiClient"
-  invokerPackage: "CryptoapisApiClient"
+  packageName: "MitinSany/CryptoapisApiClient"
+  invokerPackage: "MitinSany/CryptoapisApiClient"
   composerPackageName: "mitinsany/cryptoapi-client-php"
+  srcBasePath: "src"

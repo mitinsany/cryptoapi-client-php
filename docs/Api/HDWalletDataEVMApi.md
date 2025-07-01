@@ -1,4 +1,4 @@
-# CryptoapisApiClient\HDWalletDataEVMApi
+# MitinSany/CryptoapisApiClient\HDWalletDataEVMApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -15,7 +15,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `deriveAndSyncNewReceivingAddressesEVM()`
 
 ```php
-deriveAndSyncNewReceivingAddressesEVM($blockchain, $extendedPublicKey, $network, $context, $deriveAndSyncNewReceivingAddressesEVMRB): \CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesEVMR
+deriveAndSyncNewReceivingAddressesEVM($blockchain, $extendedPublicKey, $network, $context, $deriveAndSyncNewReceivingAddressesEVMRB): \MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesEVMR
 ```
 
 Derive And Sync New Receiving Addresses EVM
@@ -30,12 +30,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -45,7 +45,7 @@ $blockchain = ethereum; // string | Represents the specific blockchain protocol 
 $extendedPublicKey = xpub6DSqNgZke91RZBXk9s8tBknGPiVB7AQqVyxHCLEM49D3VGeMWg6qmSDruSn7SgQApVH1M8cSvjXfDmhRysDt9hZWFAMcZf4X1DAzd23G4ZQ; // string | Defines the account extended publicly known key which is used to derive all child public keys.
 $network = sepolia; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$deriveAndSyncNewReceivingAddressesEVMRB = new \CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesEVMRB(); // \CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesEVMRB
+$deriveAndSyncNewReceivingAddressesEVMRB = new \MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesEVMRB(); // \MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesEVMRB
 
 try {
     $result = $apiInstance->deriveAndSyncNewReceivingAddressesEVM($blockchain, $extendedPublicKey, $network, $context, $deriveAndSyncNewReceivingAddressesEVMRB);
@@ -63,11 +63,11 @@ try {
 | **extendedPublicKey** | **string**| Defines the account extended publicly known key which is used to derive all child public keys. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **deriveAndSyncNewReceivingAddressesEVMRB** | [**\CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesEVMRB**](../Model/DeriveAndSyncNewReceivingAddressesEVMRB.md)|  | [optional] |
+| **deriveAndSyncNewReceivingAddressesEVMRB** | [**\MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesEVMRB**](../Model/DeriveAndSyncNewReceivingAddressesEVMRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesEVMR**](../Model/DeriveAndSyncNewReceivingAddressesEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesEVMR**](../Model/DeriveAndSyncNewReceivingAddressesEVMR.md)
 
 ### Authorization
 
@@ -85,7 +85,7 @@ try {
 ## `getHDWalletXPubYPubZPubAssetsEVM()`
 
 ```php
-getHDWalletXPubYPubZPubAssetsEVM($blockchain, $extendedPublicKey, $network, $context, $derivation): \CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubAssetsEVMR
+getHDWalletXPubYPubZPubAssetsEVM($blockchain, $extendedPublicKey, $network, $context, $derivation): \MitinSany/CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubAssetsEVMR
 ```
 
 Get HD Wallet (xPub, yPub, zPub) Assets EVM
@@ -100,12 +100,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -137,7 +137,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubAssetsEVMR**](../Model/GetHDWalletXPubYPubZPubAssetsEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubAssetsEVMR**](../Model/GetHDWalletXPubYPubZPubAssetsEVMR.md)
 
 ### Authorization
 
@@ -155,7 +155,7 @@ try {
 ## `getHDWalletXPubYPubZPubDetailsEVM()`
 
 ```php
-getHDWalletXPubYPubZPubDetailsEVM($blockchain, $extendedPublicKey, $network, $context, $derivation): \CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubDetailsEVMR
+getHDWalletXPubYPubZPubDetailsEVM($blockchain, $extendedPublicKey, $network, $context, $derivation): \MitinSany/CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubDetailsEVMR
 ```
 
 Get HD Wallet (xPub, yPub, zPub) Details EVM
@@ -170,12 +170,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -207,7 +207,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubDetailsEVMR**](../Model/GetHDWalletXPubYPubZPubDetailsEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubDetailsEVMR**](../Model/GetHDWalletXPubYPubZPubDetailsEVMR.md)
 
 ### Authorization
 
@@ -225,7 +225,7 @@ try {
 ## `listHDWalletXPubYPubZPubTransactionsEVM()`
 
 ```php
-listHDWalletXPubYPubZPubTransactionsEVM($blockchain, $extendedPublicKey, $network, $context, $derivation, $limit, $offset): \CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubTransactionsEVMR
+listHDWalletXPubYPubZPubTransactionsEVM($blockchain, $extendedPublicKey, $network, $context, $derivation, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubTransactionsEVMR
 ```
 
 List HD Wallet (xPub, yPub, zPub) Transactions EVM
@@ -240,12 +240,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -281,7 +281,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubTransactionsEVMR**](../Model/ListHDWalletXPubYPubZPubTransactionsEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubTransactionsEVMR**](../Model/ListHDWalletXPubYPubZPubTransactionsEVMR.md)
 
 ### Authorization
 
@@ -299,7 +299,7 @@ try {
 ## `listSyncedAddressesEVM()`
 
 ```php
-listSyncedAddressesEVM($blockchain, $extendedPublicKey, $network, $context, $addressFormat, $isChangeAddress, $limit, $offset): \CryptoapisApiClient\Model\ListSyncedAddressesEVMR
+listSyncedAddressesEVM($blockchain, $extendedPublicKey, $network, $context, $addressFormat, $isChangeAddress, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListSyncedAddressesEVMR
 ```
 
 List Synced Addresses EVM
@@ -314,12 +314,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -357,7 +357,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListSyncedAddressesEVMR**](../Model/ListSyncedAddressesEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListSyncedAddressesEVMR**](../Model/ListSyncedAddressesEVMR.md)
 
 ### Authorization
 
@@ -375,7 +375,7 @@ try {
 ## `prepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVM()`
 
 ```php
-prepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVM($blockchain, $network, $extendedPublicKey, $type, $context, $prepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB): \CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMR
+prepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVM($blockchain, $network, $extendedPublicKey, $type, $context, $prepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB): \MitinSany/CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMR
 ```
 
 Prepare A Transaction From an Address in HD Wallet (xPub, yPub, zPub) EVM
@@ -390,12 +390,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataEVMApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataEVMApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -406,7 +406,7 @@ $network = sepolia; // string | Represents the name of the blockchain network us
 $extendedPublicKey = xpub6CsGdqTDEVRnLmpWN218HBwJqfhqSx46iA8ByzEA5Bz9jfwU3TSg9U7ambKgJyykvCraHQ6sAFAddMGFdPzhXrRanKbHnnkbDTyRPyn5gRJ; // string | Defines the account extended publicly known key which is used to derive all child public keys.
 $type = legacy-transaction; // string | Enum representation of the transaction type
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$prepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB = new \CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB(); // \CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB
+$prepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB = new \MitinSany/CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB(); // \MitinSany/CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB
 
 try {
     $result = $apiInstance->prepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVM($blockchain, $network, $extendedPublicKey, $type, $context, $prepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB);
@@ -425,11 +425,11 @@ try {
 | **extendedPublicKey** | **string**| Defines the account extended publicly known key which is used to derive all child public keys. | |
 | **type** | **string**| Enum representation of the transaction type | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **prepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB** | [**\CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB**](../Model/PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB.md)|  | [optional] |
+| **prepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB** | [**\MitinSany/CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB**](../Model/PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMR**](../Model/PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMR**](../Model/PrepareATransactionFromAnAddressInHDWalletXPubYPubZPubEVMR.md)
 
 ### Authorization
 

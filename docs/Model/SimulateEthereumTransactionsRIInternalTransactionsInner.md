@@ -8,6 +8,6 @@ Name | Type | Description | Notes
 **operationType** | **string** | String representation of internal transaction type |
 **recipient** | **string** | String representation of the internal transaction recipient |
 **sender** | **string** | String representation of the internal transaction sender |
-**value** | [**\CryptoapisApiClient\Model\SimulateEthereumTransactionsRIInternalTransactionsInnerValue**](SimulateEthereumTransactionsRIInternalTransactionsInnerValue.md) |  |
+**value** | [**\MitinSany/CryptoapisApiClient\Model\SimulateEthereumTransactionsRIInternalTransactionsInnerValue**](SimulateEthereumTransactionsRIInternalTransactionsInnerValue.md) |  |
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -1,4 +1,4 @@
-# CryptoapisApiClient\UtilsApi
+# MitinSany/CryptoapisApiClient\UtilsApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -15,7 +15,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `convertBitcoinCashAddress()`
 
 ```php
-convertBitcoinCashAddress($blockchain, $network, $context, $convertBitcoinCashAddressRB): \CryptoapisApiClient\Model\ConvertBitcoinCashAddressR
+convertBitcoinCashAddress($blockchain, $network, $context, $convertBitcoinCashAddressRB): \MitinSany/CryptoapisApiClient\Model\ConvertBitcoinCashAddressR
 ```
 
 Convert Bitcoin Cash Address
@@ -30,12 +30,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\UtilsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\UtilsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -44,7 +44,7 @@ $apiInstance = new CryptoapisApiClient\Api\UtilsApi(
 $blockchain = bitcoin-cash; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while network like \"testnet\" is a test network.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$convertBitcoinCashAddressRB = new \CryptoapisApiClient\Model\ConvertBitcoinCashAddressRB(); // \CryptoapisApiClient\Model\ConvertBitcoinCashAddressRB
+$convertBitcoinCashAddressRB = new \MitinSany/CryptoapisApiClient\Model\ConvertBitcoinCashAddressRB(); // \MitinSany/CryptoapisApiClient\Model\ConvertBitcoinCashAddressRB
 
 try {
     $result = $apiInstance->convertBitcoinCashAddress($blockchain, $network, $context, $convertBitcoinCashAddressRB);
@@ -61,11 +61,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | [default to &#39;bitcoin-cash&#39;] |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while network like \&quot;testnet\&quot; is a test network. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **convertBitcoinCashAddressRB** | [**\CryptoapisApiClient\Model\ConvertBitcoinCashAddressRB**](../Model/ConvertBitcoinCashAddressRB.md)|  | [optional] |
+| **convertBitcoinCashAddressRB** | [**\MitinSany/CryptoapisApiClient\Model\ConvertBitcoinCashAddressRB**](../Model/ConvertBitcoinCashAddressRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ConvertBitcoinCashAddressR**](../Model/ConvertBitcoinCashAddressR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ConvertBitcoinCashAddressR**](../Model/ConvertBitcoinCashAddressR.md)
 
 ### Authorization
 
@@ -83,7 +83,7 @@ try {
 ## `decodeRawTransactionHexEVM()`
 
 ```php
-decodeRawTransactionHexEVM($blockchain, $network, $context, $decodeRawTransactionHexEVMRB): \CryptoapisApiClient\Model\DecodeRawTransactionHexEVMR
+decodeRawTransactionHexEVM($blockchain, $network, $context, $decodeRawTransactionHexEVMRB): \MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexEVMR
 ```
 
 Decode Raw Transaction Hex EVM
@@ -98,12 +98,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\UtilsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\UtilsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -112,7 +112,7 @@ $apiInstance = new CryptoapisApiClient\Api\UtilsApi(
 $blockchain = ethereum; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = sepolia; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while network like \"testnet\" is a test network.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$decodeRawTransactionHexEVMRB = new \CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRB(); // \CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRB
+$decodeRawTransactionHexEVMRB = new \MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRB(); // \MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRB
 
 try {
     $result = $apiInstance->decodeRawTransactionHexEVM($blockchain, $network, $context, $decodeRawTransactionHexEVMRB);
@@ -129,11 +129,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while network like \&quot;testnet\&quot; is a test network. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **decodeRawTransactionHexEVMRB** | [**\CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRB**](../Model/DecodeRawTransactionHexEVMRB.md)|  | [optional] |
+| **decodeRawTransactionHexEVMRB** | [**\MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexEVMRB**](../Model/DecodeRawTransactionHexEVMRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\DecodeRawTransactionHexEVMR**](../Model/DecodeRawTransactionHexEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexEVMR**](../Model/DecodeRawTransactionHexEVMR.md)
 
 ### Authorization
 
@@ -151,7 +151,7 @@ try {
 ## `decodeXAddress()`
 
 ```php
-decodeXAddress($blockchain, $network, $xAddress, $context): \CryptoapisApiClient\Model\DecodeXAddressR
+decodeXAddress($blockchain, $network, $xAddress, $context): \MitinSany/CryptoapisApiClient\Model\DecodeXAddressR
 ```
 
 Decode X-Address
@@ -166,12 +166,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\UtilsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\UtilsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -201,7 +201,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\DecodeXAddressR**](../Model/DecodeXAddressR.md)
+[**\MitinSany/CryptoapisApiClient\Model\DecodeXAddressR**](../Model/DecodeXAddressR.md)
 
 ### Authorization
 
@@ -219,7 +219,7 @@ try {
 ## `encodeXAddress()`
 
 ```php
-encodeXAddress($addressTag, $blockchain, $classicAddress, $network, $context): \CryptoapisApiClient\Model\EncodeXAddressR
+encodeXAddress($addressTag, $blockchain, $classicAddress, $network, $context): \MitinSany/CryptoapisApiClient\Model\EncodeXAddressR
 ```
 
 Encode X-Address
@@ -234,12 +234,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\UtilsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\UtilsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -271,7 +271,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\EncodeXAddressR**](../Model/EncodeXAddressR.md)
+[**\MitinSany/CryptoapisApiClient\Model\EncodeXAddressR**](../Model/EncodeXAddressR.md)
 
 ### Authorization
 
@@ -289,7 +289,7 @@ try {
 ## `validateAddressEVM()`
 
 ```php
-validateAddressEVM($blockchain, $network, $context, $validateAddressEVMRB): \CryptoapisApiClient\Model\ValidateAddressEVMR
+validateAddressEVM($blockchain, $network, $context, $validateAddressEVMRB): \MitinSany/CryptoapisApiClient\Model\ValidateAddressEVMR
 ```
 
 Validate Address EVM
@@ -304,12 +304,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\UtilsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\UtilsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -318,7 +318,7 @@ $apiInstance = new CryptoapisApiClient\Api\UtilsApi(
 $blockchain = bitcoin; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$validateAddressEVMRB = new \CryptoapisApiClient\Model\ValidateAddressEVMRB(); // \CryptoapisApiClient\Model\ValidateAddressEVMRB
+$validateAddressEVMRB = new \MitinSany/CryptoapisApiClient\Model\ValidateAddressEVMRB(); // \MitinSany/CryptoapisApiClient\Model\ValidateAddressEVMRB
 
 try {
     $result = $apiInstance->validateAddressEVM($blockchain, $network, $context, $validateAddressEVMRB);
@@ -335,11 +335,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **validateAddressEVMRB** | [**\CryptoapisApiClient\Model\ValidateAddressEVMRB**](../Model/ValidateAddressEVMRB.md)|  | [optional] |
+| **validateAddressEVMRB** | [**\MitinSany/CryptoapisApiClient\Model\ValidateAddressEVMRB**](../Model/ValidateAddressEVMRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ValidateAddressEVMR**](../Model/ValidateAddressEVMR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ValidateAddressEVMR**](../Model/ValidateAddressEVMR.md)
 
 ### Authorization
 
@@ -357,7 +357,7 @@ try {
 ## `validateAddressXRP()`
 
 ```php
-validateAddressXRP($blockchain, $network, $context, $validateAddressXRPRB): \CryptoapisApiClient\Model\ValidateAddressXRPR
+validateAddressXRP($blockchain, $network, $context, $validateAddressXRPRB): \MitinSany/CryptoapisApiClient\Model\ValidateAddressXRPR
 ```
 
 Validate Address XRP
@@ -372,12 +372,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\UtilsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\UtilsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -386,7 +386,7 @@ $apiInstance = new CryptoapisApiClient\Api\UtilsApi(
 $blockchain = bitcoin; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$validateAddressXRPRB = new \CryptoapisApiClient\Model\ValidateAddressXRPRB(); // \CryptoapisApiClient\Model\ValidateAddressXRPRB
+$validateAddressXRPRB = new \MitinSany/CryptoapisApiClient\Model\ValidateAddressXRPRB(); // \MitinSany/CryptoapisApiClient\Model\ValidateAddressXRPRB
 
 try {
     $result = $apiInstance->validateAddressXRP($blockchain, $network, $context, $validateAddressXRPRB);
@@ -403,11 +403,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **validateAddressXRPRB** | [**\CryptoapisApiClient\Model\ValidateAddressXRPRB**](../Model/ValidateAddressXRPRB.md)|  | [optional] |
+| **validateAddressXRPRB** | [**\MitinSany/CryptoapisApiClient\Model\ValidateAddressXRPRB**](../Model/ValidateAddressXRPRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ValidateAddressXRPR**](../Model/ValidateAddressXRPR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ValidateAddressXRPR**](../Model/ValidateAddressXRPR.md)
 
 ### Authorization
 

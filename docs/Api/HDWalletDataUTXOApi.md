@@ -1,4 +1,4 @@
-# CryptoapisApiClient\HDWalletDataUTXOApi
+# MitinSany/CryptoapisApiClient\HDWalletDataUTXOApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -17,7 +17,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `deriveAndSyncNewChangeAddressesUTXO()`
 
 ```php
-deriveAndSyncNewChangeAddressesUTXO($blockchain, $extendedPublicKey, $network, $context, $deriveAndSyncNewChangeAddressesUTXORB): \CryptoapisApiClient\Model\DeriveAndSyncNewChangeAddressesUTXOR
+deriveAndSyncNewChangeAddressesUTXO($blockchain, $extendedPublicKey, $network, $context, $deriveAndSyncNewChangeAddressesUTXORB): \MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewChangeAddressesUTXOR
 ```
 
 Derive And Sync New Change Addresses UTXO
@@ -32,12 +32,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataUTXOApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataUTXOApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -47,7 +47,7 @@ $blockchain = bitcoin; // string | Represents the specific blockchain protocol n
 $extendedPublicKey = xpub6BuJ8T4xTEePRTWxEcyyZRHPRZw91GFRjuu4H1eNqNGDswpraD5Hthf7JBbK7iQayuLf2MbxT6MVrKGbY7HvBcQo937Qiwmxz7Fzy9S5y9q; // string | Defines the account extended publicly known key which is used to derive all child public keys.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while network like \"testnet\" is a test network.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$deriveAndSyncNewChangeAddressesUTXORB = new \CryptoapisApiClient\Model\DeriveAndSyncNewChangeAddressesUTXORB(); // \CryptoapisApiClient\Model\DeriveAndSyncNewChangeAddressesUTXORB
+$deriveAndSyncNewChangeAddressesUTXORB = new \MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewChangeAddressesUTXORB(); // \MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewChangeAddressesUTXORB
 
 try {
     $result = $apiInstance->deriveAndSyncNewChangeAddressesUTXO($blockchain, $extendedPublicKey, $network, $context, $deriveAndSyncNewChangeAddressesUTXORB);
@@ -65,11 +65,11 @@ try {
 | **extendedPublicKey** | **string**| Defines the account extended publicly known key which is used to derive all child public keys. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while network like \&quot;testnet\&quot; is a test network. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **deriveAndSyncNewChangeAddressesUTXORB** | [**\CryptoapisApiClient\Model\DeriveAndSyncNewChangeAddressesUTXORB**](../Model/DeriveAndSyncNewChangeAddressesUTXORB.md)|  | [optional] |
+| **deriveAndSyncNewChangeAddressesUTXORB** | [**\MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewChangeAddressesUTXORB**](../Model/DeriveAndSyncNewChangeAddressesUTXORB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\DeriveAndSyncNewChangeAddressesUTXOR**](../Model/DeriveAndSyncNewChangeAddressesUTXOR.md)
+[**\MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewChangeAddressesUTXOR**](../Model/DeriveAndSyncNewChangeAddressesUTXOR.md)
 
 ### Authorization
 
@@ -87,7 +87,7 @@ try {
 ## `deriveAndSyncNewReceivingAddressesUTXO()`
 
 ```php
-deriveAndSyncNewReceivingAddressesUTXO($blockchain, $extendedPublicKey, $network, $context, $deriveAndSyncNewReceivingAddressesUTXORB): \CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesUTXOR
+deriveAndSyncNewReceivingAddressesUTXO($blockchain, $extendedPublicKey, $network, $context, $deriveAndSyncNewReceivingAddressesUTXORB): \MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesUTXOR
 ```
 
 Derive And Sync New Receiving Addresses UTXO
@@ -102,12 +102,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataUTXOApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataUTXOApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -117,7 +117,7 @@ $blockchain = bitcoin; // string | Represents the specific blockchain protocol n
 $extendedPublicKey = xpub6DSqNgZke91RZBXk9s8tBknGPiVB7AQqVyxHCLEM49D3VGeMWg6qmSDruSn7SgQApVH1M8cSvjXfDmhRysDt9hZWFAMcZf4X1DAzd23G4ZQ; // string | Defines the account extended publicly known key which is used to derive all child public keys.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$deriveAndSyncNewReceivingAddressesUTXORB = new \CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesUTXORB(); // \CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesUTXORB
+$deriveAndSyncNewReceivingAddressesUTXORB = new \MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesUTXORB(); // \MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesUTXORB
 
 try {
     $result = $apiInstance->deriveAndSyncNewReceivingAddressesUTXO($blockchain, $extendedPublicKey, $network, $context, $deriveAndSyncNewReceivingAddressesUTXORB);
@@ -135,11 +135,11 @@ try {
 | **extendedPublicKey** | **string**| Defines the account extended publicly known key which is used to derive all child public keys. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **deriveAndSyncNewReceivingAddressesUTXORB** | [**\CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesUTXORB**](../Model/DeriveAndSyncNewReceivingAddressesUTXORB.md)|  | [optional] |
+| **deriveAndSyncNewReceivingAddressesUTXORB** | [**\MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesUTXORB**](../Model/DeriveAndSyncNewReceivingAddressesUTXORB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesUTXOR**](../Model/DeriveAndSyncNewReceivingAddressesUTXOR.md)
+[**\MitinSany/CryptoapisApiClient\Model\DeriveAndSyncNewReceivingAddressesUTXOR**](../Model/DeriveAndSyncNewReceivingAddressesUTXOR.md)
 
 ### Authorization
 
@@ -157,7 +157,7 @@ try {
 ## `getHDWalletXPubYPubZPubAssetsUTXO()`
 
 ```php
-getHDWalletXPubYPubZPubAssetsUTXO($blockchain, $extendedPublicKey, $network, $context, $derivation): \CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubAssetsUTXOR
+getHDWalletXPubYPubZPubAssetsUTXO($blockchain, $extendedPublicKey, $network, $context, $derivation): \MitinSany/CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubAssetsUTXOR
 ```
 
 Get HD Wallet (xPub, yPub, zPub) Assets UTXO
@@ -172,12 +172,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataUTXOApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataUTXOApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -209,7 +209,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubAssetsUTXOR**](../Model/GetHDWalletXPubYPubZPubAssetsUTXOR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubAssetsUTXOR**](../Model/GetHDWalletXPubYPubZPubAssetsUTXOR.md)
 
 ### Authorization
 
@@ -227,7 +227,7 @@ try {
 ## `getHDWalletXPubYPubZPubDetailsUTXO()`
 
 ```php
-getHDWalletXPubYPubZPubDetailsUTXO($blockchain, $extendedPublicKey, $network, $context, $derivation): \CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubDetailsUTXOR
+getHDWalletXPubYPubZPubDetailsUTXO($blockchain, $extendedPublicKey, $network, $context, $derivation): \MitinSany/CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubDetailsUTXOR
 ```
 
 Get HD Wallet (xPub, yPub, zPub) Details UTXO
@@ -242,12 +242,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataUTXOApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataUTXOApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -279,7 +279,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubDetailsUTXOR**](../Model/GetHDWalletXPubYPubZPubDetailsUTXOR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetHDWalletXPubYPubZPubDetailsUTXOR**](../Model/GetHDWalletXPubYPubZPubDetailsUTXOR.md)
 
 ### Authorization
 
@@ -297,7 +297,7 @@ try {
 ## `listHDWalletXPubYPubZPubTransactionsUTXO()`
 
 ```php
-listHDWalletXPubYPubZPubTransactionsUTXO($blockchain, $extendedPublicKey, $network, $context, $derivation, $limit, $offset): \CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubTransactionsUTXOR
+listHDWalletXPubYPubZPubTransactionsUTXO($blockchain, $extendedPublicKey, $network, $context, $derivation, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubTransactionsUTXOR
 ```
 
 List HD Wallet (xPub, yPub, zPub) Transactions UTXO
@@ -312,12 +312,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataUTXOApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataUTXOApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -353,7 +353,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubTransactionsUTXOR**](../Model/ListHDWalletXPubYPubZPubTransactionsUTXOR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubTransactionsUTXOR**](../Model/ListHDWalletXPubYPubZPubTransactionsUTXOR.md)
 
 ### Authorization
 
@@ -371,7 +371,7 @@ try {
 ## `listHDWalletXPubYPubZPubUTXOs()`
 
 ```php
-listHDWalletXPubYPubZPubUTXOs($blockchain, $extendedPublicKey, $network, $context, $derivation, $limit, $offset): \CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubUTXOsR
+listHDWalletXPubYPubZPubUTXOs($blockchain, $extendedPublicKey, $network, $context, $derivation, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubUTXOsR
 ```
 
 List HD Wallet (xPub, yPub, zPub) UTXOs
@@ -386,12 +386,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataUTXOApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataUTXOApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -427,7 +427,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubUTXOsR**](../Model/ListHDWalletXPubYPubZPubUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListHDWalletXPubYPubZPubUTXOsR**](../Model/ListHDWalletXPubYPubZPubUTXOsR.md)
 
 ### Authorization
 
@@ -445,7 +445,7 @@ try {
 ## `listSyncedAddressesUTXO()`
 
 ```php
-listSyncedAddressesUTXO($blockchain, $extendedPublicKey, $network, $context, $addressFormat, $isChangeAddress, $limit, $offset): \CryptoapisApiClient\Model\ListSyncedAddressesUTXOR
+listSyncedAddressesUTXO($blockchain, $extendedPublicKey, $network, $context, $addressFormat, $isChangeAddress, $limit, $offset): \MitinSany/CryptoapisApiClient\Model\ListSyncedAddressesUTXOR
 ```
 
 List Synced Addresses UTXO
@@ -460,12 +460,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataUTXOApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataUTXOApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -503,7 +503,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ListSyncedAddressesUTXOR**](../Model/ListSyncedAddressesUTXOR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ListSyncedAddressesUTXOR**](../Model/ListSyncedAddressesUTXOR.md)
 
 ### Authorization
 
@@ -521,7 +521,7 @@ try {
 ## `prepareAUTXOBasedTransactionFromHDWalletXPubYPubZPub()`
 
 ```php
-prepareAUTXOBasedTransactionFromHDWalletXPubYPubZPub($blockchain, $network, $extendedPublicKey, $context, $prepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB): \CryptoapisApiClient\Model\PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubR
+prepareAUTXOBasedTransactionFromHDWalletXPubYPubZPub($blockchain, $network, $extendedPublicKey, $context, $prepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB): \MitinSany/CryptoapisApiClient\Model\PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubR
 ```
 
 Prepare A UTXO-Based Transaction From HD Wallet (xPub, yPub, zPub)
@@ -536,12 +536,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\HDWalletDataUTXOApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\HDWalletDataUTXOApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -551,7 +551,7 @@ $blockchain = bitcoin; // string | Represents the specific blockchain protocol n
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while network like \"testnet\" is a test network.
 $extendedPublicKey = tpubDCNoSqt3HF32yq8VU6mgapTuW1FzENZa3C5dKUF6WCQzubWz2nA1yxUhMQWkhhkD58Uc8YiuD8cmB3y5tihqAv4zT2GNyqKTNLchHJmsvt9; // string | Defines the account extended publicly known key which is used to derive all child public keys.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$prepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB = new \CryptoapisApiClient\Model\PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB(); // \CryptoapisApiClient\Model\PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB
+$prepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB = new \MitinSany/CryptoapisApiClient\Model\PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB(); // \MitinSany/CryptoapisApiClient\Model\PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB
 
 try {
     $result = $apiInstance->prepareAUTXOBasedTransactionFromHDWalletXPubYPubZPub($blockchain, $network, $extendedPublicKey, $context, $prepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB);
@@ -569,11 +569,11 @@ try {
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while network like \&quot;testnet\&quot; is a test network. | |
 | **extendedPublicKey** | **string**| Defines the account extended publicly known key which is used to derive all child public keys. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **prepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB** | [**\CryptoapisApiClient\Model\PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB**](../Model/PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB.md)|  | [optional] |
+| **prepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB** | [**\MitinSany/CryptoapisApiClient\Model\PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB**](../Model/PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubR**](../Model/PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubR.md)
+[**\MitinSany/CryptoapisApiClient\Model\PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubR**](../Model/PrepareAUTXOBasedTransactionFromHDWalletXPubYPubZPubR.md)
 
 ### Authorization
 

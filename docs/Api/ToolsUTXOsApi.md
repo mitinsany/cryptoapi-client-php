@@ -1,4 +1,4 @@
-# CryptoapisApiClient\ToolsUTXOsApi
+# MitinSany/CryptoapisApiClient\ToolsUTXOsApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -11,7 +11,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `decodeRawTransactionHexUTXO()`
 
 ```php
-decodeRawTransactionHexUTXO($blockchain, $network, $context, $decodeRawTransactionHexUTXORB): \CryptoapisApiClient\Model\DecodeRawTransactionHexUTXOR
+decodeRawTransactionHexUTXO($blockchain, $network, $context, $decodeRawTransactionHexUTXORB): \MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexUTXOR
 ```
 
 Decode Raw Transaction Hex UTXO
@@ -24,12 +24,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ToolsUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ToolsUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -38,7 +38,7 @@ $apiInstance = new CryptoapisApiClient\Api\ToolsUTXOsApi(
 $blockchain = bitcoin; // string
 $network = mainnet; // string
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$decodeRawTransactionHexUTXORB = new \CryptoapisApiClient\Model\DecodeRawTransactionHexUTXORB(); // \CryptoapisApiClient\Model\DecodeRawTransactionHexUTXORB
+$decodeRawTransactionHexUTXORB = new \MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexUTXORB(); // \MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexUTXORB
 
 try {
     $result = $apiInstance->decodeRawTransactionHexUTXO($blockchain, $network, $context, $decodeRawTransactionHexUTXORB);
@@ -55,11 +55,11 @@ try {
 | **blockchain** | **string**|  | |
 | **network** | **string**|  | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **decodeRawTransactionHexUTXORB** | [**\CryptoapisApiClient\Model\DecodeRawTransactionHexUTXORB**](../Model/DecodeRawTransactionHexUTXORB.md)|  | [optional] |
+| **decodeRawTransactionHexUTXORB** | [**\MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexUTXORB**](../Model/DecodeRawTransactionHexUTXORB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\DecodeRawTransactionHexUTXOR**](../Model/DecodeRawTransactionHexUTXOR.md)
+[**\MitinSany/CryptoapisApiClient\Model\DecodeRawTransactionHexUTXOR**](../Model/DecodeRawTransactionHexUTXOR.md)
 
 ### Authorization
 
@@ -77,7 +77,7 @@ try {
 ## `validateAddressUTXO()`
 
 ```php
-validateAddressUTXO($blockchain, $network, $context, $validateAddressUTXORB): \CryptoapisApiClient\Model\ValidateAddressUTXOR
+validateAddressUTXO($blockchain, $network, $context, $validateAddressUTXORB): \MitinSany/CryptoapisApiClient\Model\ValidateAddressUTXOR
 ```
 
 Validate Address UTXO
@@ -92,12 +92,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\ToolsUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\ToolsUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -106,7 +106,7 @@ $apiInstance = new CryptoapisApiClient\Api\ToolsUTXOsApi(
 $blockchain = bitcoin; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$validateAddressUTXORB = new \CryptoapisApiClient\Model\ValidateAddressUTXORB(); // \CryptoapisApiClient\Model\ValidateAddressUTXORB
+$validateAddressUTXORB = new \MitinSany/CryptoapisApiClient\Model\ValidateAddressUTXORB(); // \MitinSany/CryptoapisApiClient\Model\ValidateAddressUTXORB
 
 try {
     $result = $apiInstance->validateAddressUTXO($blockchain, $network, $context, $validateAddressUTXORB);
@@ -123,11 +123,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **validateAddressUTXORB** | [**\CryptoapisApiClient\Model\ValidateAddressUTXORB**](../Model/ValidateAddressUTXORB.md)|  | [optional] |
+| **validateAddressUTXORB** | [**\MitinSany/CryptoapisApiClient\Model\ValidateAddressUTXORB**](../Model/ValidateAddressUTXORB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\ValidateAddressUTXOR**](../Model/ValidateAddressUTXOR.md)
+[**\MitinSany/CryptoapisApiClient\Model\ValidateAddressUTXOR**](../Model/ValidateAddressUTXOR.md)
 
 ### Authorization
 

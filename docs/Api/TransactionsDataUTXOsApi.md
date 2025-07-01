@@ -1,4 +1,4 @@
-# CryptoapisApiClient\TransactionsDataUTXOsApi
+# MitinSany/CryptoapisApiClient\TransactionsDataUTXOsApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -11,7 +11,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `getRawTransactionDataUTXOs()`
 
 ```php
-getRawTransactionDataUTXOs($blockchain, $network, $transactionHash, $context): \CryptoapisApiClient\Model\GetRawTransactionDataUTXOsR
+getRawTransactionDataUTXOs($blockchain, $network, $transactionHash, $context): \MitinSany/CryptoapisApiClient\Model\GetRawTransactionDataUTXOsR
 ```
 
 Get Raw Transaction Data UTXOs
@@ -26,12 +26,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\TransactionsDataUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\TransactionsDataUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -61,7 +61,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetRawTransactionDataUTXOsR**](../Model/GetRawTransactionDataUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetRawTransactionDataUTXOsR**](../Model/GetRawTransactionDataUTXOsR.md)
 
 ### Authorization
 
@@ -79,7 +79,7 @@ try {
 ## `getTransactionDetailsByTransactionHashUTXOs()`
 
 ```php
-getTransactionDetailsByTransactionHashUTXOs($blockchain, $network, $transactionHash, $context): \CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashUTXOsR
+getTransactionDetailsByTransactionHashUTXOs($blockchain, $network, $transactionHash, $context): \MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashUTXOsR
 ```
 
 Get Transaction Details By Transaction Hash UTXOs
@@ -94,12 +94,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\TransactionsDataUTXOsApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\TransactionsDataUTXOsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -129,7 +129,7 @@ try {
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashUTXOsR**](../Model/GetTransactionDetailsByTransactionHashUTXOsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\GetTransactionDetailsByTransactionHashUTXOsR**](../Model/GetTransactionDetailsByTransactionHashUTXOsR.md)
 
 ### Authorization
 

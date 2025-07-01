@@ -9,8 +9,8 @@ Name | Type | Description | Notes
 **recipient** | **string** | The address which receives this transaction. In UTXO-based protocols like Bitcoin there could be several senders while in account-based protocols like Ethereum there is always only one recipient. |
 **sender** | **string** | Represents the address which sends this transaction. In UTXO-based protocols like Bitcoin there could be several senders while in account-based protocols like Ethereum there is always only one sender. |
 **sighash** | **string** | Representation of the hash that should be signed |
-**value** | [**\CryptoapisApiClient\Model\PrepareTransactionFromAddressEVMRIValue**](PrepareTransactionFromAddressEVMRIValue.md) |  |
-**fee** | [**\CryptoapisApiClient\Model\PrepareTransactionFromAddressEVMRIFee**](PrepareTransactionFromAddressEVMRIFee.md) |  |
+**value** | [**\MitinSany/CryptoapisApiClient\Model\PrepareTransactionFromAddressEVMRIValue**](PrepareTransactionFromAddressEVMRIValue.md) |  |
+**fee** | [**\MitinSany/CryptoapisApiClient\Model\PrepareTransactionFromAddressEVMRIFee**](PrepareTransactionFromAddressEVMRIFee.md) |  |
 **gasLimit** | **int** | Represents the amount of gas used by this specific transaction alone. |
 **type** | **string** | Representation of the transaction type |
 

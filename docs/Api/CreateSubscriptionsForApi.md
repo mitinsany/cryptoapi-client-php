@@ -1,4 +1,4 @@
-# CryptoapisApiClient\CreateSubscriptionsForApi
+# MitinSany/CryptoapisApiClient\CreateSubscriptionsForApi
 
 All URIs are relative to https://rest.cryptoapis.io, except if the operation defines another base path.
 
@@ -18,7 +18,7 @@ All URIs are relative to https://rest.cryptoapis.io, except if the operation def
 ## `minedTransaction()`
 
 ```php
-minedTransaction($blockchain, $network, $context, $minedTransactionRB): \CryptoapisApiClient\Model\MinedTransactionR
+minedTransaction($blockchain, $network, $context, $minedTransactionRB): \MitinSany/CryptoapisApiClient\Model\MinedTransactionR
 ```
 
 Mined Transaction
@@ -33,12 +33,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\CreateSubscriptionsForApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -47,7 +47,7 @@ $apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
 $blockchain = bitcoin; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$minedTransactionRB = new \CryptoapisApiClient\Model\MinedTransactionRB(); // \CryptoapisApiClient\Model\MinedTransactionRB
+$minedTransactionRB = new \MitinSany/CryptoapisApiClient\Model\MinedTransactionRB(); // \MitinSany/CryptoapisApiClient\Model\MinedTransactionRB
 
 try {
     $result = $apiInstance->minedTransaction($blockchain, $network, $context, $minedTransactionRB);
@@ -64,11 +64,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **minedTransactionRB** | [**\CryptoapisApiClient\Model\MinedTransactionRB**](../Model/MinedTransactionRB.md)|  | [optional] |
+| **minedTransactionRB** | [**\MitinSany/CryptoapisApiClient\Model\MinedTransactionRB**](../Model/MinedTransactionRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\MinedTransactionR**](../Model/MinedTransactionR.md)
+[**\MitinSany/CryptoapisApiClient\Model\MinedTransactionR**](../Model/MinedTransactionR.md)
 
 ### Authorization
 
@@ -86,7 +86,7 @@ try {
 ## `newBlock()`
 
 ```php
-newBlock($blockchain, $network, $context, $newBlockRB): \CryptoapisApiClient\Model\NewBlockR
+newBlock($blockchain, $network, $context, $newBlockRB): \MitinSany/CryptoapisApiClient\Model\NewBlockR
 ```
 
 New Block
@@ -101,12 +101,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\CreateSubscriptionsForApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -115,7 +115,7 @@ $apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
 $blockchain = bitcoin; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$newBlockRB = new \CryptoapisApiClient\Model\NewBlockRB(); // \CryptoapisApiClient\Model\NewBlockRB
+$newBlockRB = new \MitinSany/CryptoapisApiClient\Model\NewBlockRB(); // \MitinSany/CryptoapisApiClient\Model\NewBlockRB
 
 try {
     $result = $apiInstance->newBlock($blockchain, $network, $context, $newBlockRB);
@@ -132,11 +132,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **newBlockRB** | [**\CryptoapisApiClient\Model\NewBlockRB**](../Model/NewBlockRB.md)|  | [optional] |
+| **newBlockRB** | [**\MitinSany/CryptoapisApiClient\Model\NewBlockRB**](../Model/NewBlockRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\NewBlockR**](../Model/NewBlockR.md)
+[**\MitinSany/CryptoapisApiClient\Model\NewBlockR**](../Model/NewBlockR.md)
 
 ### Authorization
 
@@ -154,7 +154,7 @@ try {
 ## `newConfirmedCoinsTransactions()`
 
 ```php
-newConfirmedCoinsTransactions($blockchain, $network, $context, $newConfirmedCoinsTransactionsRB): \CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsR
+newConfirmedCoinsTransactions($blockchain, $network, $context, $newConfirmedCoinsTransactionsRB): \MitinSany/CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsR
 ```
 
 New Confirmed Coins Transactions
@@ -169,12 +169,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\CreateSubscriptionsForApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -183,7 +183,7 @@ $apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
 $blockchain = bitcoin; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$newConfirmedCoinsTransactionsRB = new \CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsRB(); // \CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsRB
+$newConfirmedCoinsTransactionsRB = new \MitinSany/CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsRB(); // \MitinSany/CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsRB
 
 try {
     $result = $apiInstance->newConfirmedCoinsTransactions($blockchain, $network, $context, $newConfirmedCoinsTransactionsRB);
@@ -200,11 +200,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **newConfirmedCoinsTransactionsRB** | [**\CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsRB**](../Model/NewConfirmedCoinsTransactionsRB.md)|  | [optional] |
+| **newConfirmedCoinsTransactionsRB** | [**\MitinSany/CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsRB**](../Model/NewConfirmedCoinsTransactionsRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsR**](../Model/NewConfirmedCoinsTransactionsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsR**](../Model/NewConfirmedCoinsTransactionsR.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ try {
 ## `newConfirmedCoinsTransactionsAndEachConfirmation()`
 
 ```php
-newConfirmedCoinsTransactionsAndEachConfirmation($blockchain, $network, $context, $newConfirmedCoinsTransactionsAndEachConfirmationRB): \CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsAndEachConfirmationR
+newConfirmedCoinsTransactionsAndEachConfirmation($blockchain, $network, $context, $newConfirmedCoinsTransactionsAndEachConfirmationRB): \MitinSany/CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsAndEachConfirmationR
 ```
 
 New Confirmed Coins Transactions And Each Confirmation
@@ -237,12 +237,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\CreateSubscriptionsForApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -251,7 +251,7 @@ $apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
 $blockchain = bitcoin; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$newConfirmedCoinsTransactionsAndEachConfirmationRB = new \CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsAndEachConfirmationRB(); // \CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsAndEachConfirmationRB
+$newConfirmedCoinsTransactionsAndEachConfirmationRB = new \MitinSany/CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsAndEachConfirmationRB(); // \MitinSany/CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsAndEachConfirmationRB
 
 try {
     $result = $apiInstance->newConfirmedCoinsTransactionsAndEachConfirmation($blockchain, $network, $context, $newConfirmedCoinsTransactionsAndEachConfirmationRB);
@@ -268,11 +268,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **newConfirmedCoinsTransactionsAndEachConfirmationRB** | [**\CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsAndEachConfirmationRB**](../Model/NewConfirmedCoinsTransactionsAndEachConfirmationRB.md)|  | [optional] |
+| **newConfirmedCoinsTransactionsAndEachConfirmationRB** | [**\MitinSany/CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsAndEachConfirmationRB**](../Model/NewConfirmedCoinsTransactionsAndEachConfirmationRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsAndEachConfirmationR**](../Model/NewConfirmedCoinsTransactionsAndEachConfirmationR.md)
+[**\MitinSany/CryptoapisApiClient\Model\NewConfirmedCoinsTransactionsAndEachConfirmationR**](../Model/NewConfirmedCoinsTransactionsAndEachConfirmationR.md)
 
 ### Authorization
 
@@ -290,7 +290,7 @@ try {
 ## `newConfirmedInternalTransactions()`
 
 ```php
-newConfirmedInternalTransactions($blockchain, $network, $context, $newConfirmedInternalTransactionsRB): \CryptoapisApiClient\Model\NewConfirmedInternalTransactionsR
+newConfirmedInternalTransactions($blockchain, $network, $context, $newConfirmedInternalTransactionsRB): \MitinSany/CryptoapisApiClient\Model\NewConfirmedInternalTransactionsR
 ```
 
 New Confirmed Internal Transactions
@@ -305,12 +305,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\CreateSubscriptionsForApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -319,7 +319,7 @@ $apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
 $blockchain = ethereum-classic; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = mordor; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$newConfirmedInternalTransactionsRB = new \CryptoapisApiClient\Model\NewConfirmedInternalTransactionsRB(); // \CryptoapisApiClient\Model\NewConfirmedInternalTransactionsRB
+$newConfirmedInternalTransactionsRB = new \MitinSany/CryptoapisApiClient\Model\NewConfirmedInternalTransactionsRB(); // \MitinSany/CryptoapisApiClient\Model\NewConfirmedInternalTransactionsRB
 
 try {
     $result = $apiInstance->newConfirmedInternalTransactions($blockchain, $network, $context, $newConfirmedInternalTransactionsRB);
@@ -336,11 +336,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **newConfirmedInternalTransactionsRB** | [**\CryptoapisApiClient\Model\NewConfirmedInternalTransactionsRB**](../Model/NewConfirmedInternalTransactionsRB.md)|  | [optional] |
+| **newConfirmedInternalTransactionsRB** | [**\MitinSany/CryptoapisApiClient\Model\NewConfirmedInternalTransactionsRB**](../Model/NewConfirmedInternalTransactionsRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\NewConfirmedInternalTransactionsR**](../Model/NewConfirmedInternalTransactionsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\NewConfirmedInternalTransactionsR**](../Model/NewConfirmedInternalTransactionsR.md)
 
 ### Authorization
 
@@ -358,7 +358,7 @@ try {
 ## `newConfirmedInternalTransactionsAndEachConfirmation()`
 
 ```php
-newConfirmedInternalTransactionsAndEachConfirmation($blockchain, $network, $context, $newConfirmedInternalTransactionsAndEachConfirmationRB): \CryptoapisApiClient\Model\NewConfirmedInternalTransactionsAndEachConfirmationR
+newConfirmedInternalTransactionsAndEachConfirmation($blockchain, $network, $context, $newConfirmedInternalTransactionsAndEachConfirmationRB): \MitinSany/CryptoapisApiClient\Model\NewConfirmedInternalTransactionsAndEachConfirmationR
 ```
 
 New Confirmed Internal Transactions And Each Confirmation
@@ -373,12 +373,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\CreateSubscriptionsForApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -387,7 +387,7 @@ $apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
 $blockchain = ethereum-classic; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = mordor; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$newConfirmedInternalTransactionsAndEachConfirmationRB = new \CryptoapisApiClient\Model\NewConfirmedInternalTransactionsAndEachConfirmationRB(); // \CryptoapisApiClient\Model\NewConfirmedInternalTransactionsAndEachConfirmationRB
+$newConfirmedInternalTransactionsAndEachConfirmationRB = new \MitinSany/CryptoapisApiClient\Model\NewConfirmedInternalTransactionsAndEachConfirmationRB(); // \MitinSany/CryptoapisApiClient\Model\NewConfirmedInternalTransactionsAndEachConfirmationRB
 
 try {
     $result = $apiInstance->newConfirmedInternalTransactionsAndEachConfirmation($blockchain, $network, $context, $newConfirmedInternalTransactionsAndEachConfirmationRB);
@@ -404,11 +404,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **newConfirmedInternalTransactionsAndEachConfirmationRB** | [**\CryptoapisApiClient\Model\NewConfirmedInternalTransactionsAndEachConfirmationRB**](../Model/NewConfirmedInternalTransactionsAndEachConfirmationRB.md)|  | [optional] |
+| **newConfirmedInternalTransactionsAndEachConfirmationRB** | [**\MitinSany/CryptoapisApiClient\Model\NewConfirmedInternalTransactionsAndEachConfirmationRB**](../Model/NewConfirmedInternalTransactionsAndEachConfirmationRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\NewConfirmedInternalTransactionsAndEachConfirmationR**](../Model/NewConfirmedInternalTransactionsAndEachConfirmationR.md)
+[**\MitinSany/CryptoapisApiClient\Model\NewConfirmedInternalTransactionsAndEachConfirmationR**](../Model/NewConfirmedInternalTransactionsAndEachConfirmationR.md)
 
 ### Authorization
 
@@ -426,7 +426,7 @@ try {
 ## `newConfirmedTokensTransactions()`
 
 ```php
-newConfirmedTokensTransactions($blockchain, $network, $context, $newConfirmedTokensTransactionsRB): \CryptoapisApiClient\Model\NewConfirmedTokensTransactionsR
+newConfirmedTokensTransactions($blockchain, $network, $context, $newConfirmedTokensTransactionsRB): \MitinSany/CryptoapisApiClient\Model\NewConfirmedTokensTransactionsR
 ```
 
 New Confirmed Tokens Transactions
@@ -441,12 +441,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\CreateSubscriptionsForApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -455,7 +455,7 @@ $apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
 $blockchain = ethereum; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = sepolia; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$newConfirmedTokensTransactionsRB = new \CryptoapisApiClient\Model\NewConfirmedTokensTransactionsRB(); // \CryptoapisApiClient\Model\NewConfirmedTokensTransactionsRB
+$newConfirmedTokensTransactionsRB = new \MitinSany/CryptoapisApiClient\Model\NewConfirmedTokensTransactionsRB(); // \MitinSany/CryptoapisApiClient\Model\NewConfirmedTokensTransactionsRB
 
 try {
     $result = $apiInstance->newConfirmedTokensTransactions($blockchain, $network, $context, $newConfirmedTokensTransactionsRB);
@@ -472,11 +472,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **newConfirmedTokensTransactionsRB** | [**\CryptoapisApiClient\Model\NewConfirmedTokensTransactionsRB**](../Model/NewConfirmedTokensTransactionsRB.md)|  | [optional] |
+| **newConfirmedTokensTransactionsRB** | [**\MitinSany/CryptoapisApiClient\Model\NewConfirmedTokensTransactionsRB**](../Model/NewConfirmedTokensTransactionsRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\NewConfirmedTokensTransactionsR**](../Model/NewConfirmedTokensTransactionsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\NewConfirmedTokensTransactionsR**](../Model/NewConfirmedTokensTransactionsR.md)
 
 ### Authorization
 
@@ -494,7 +494,7 @@ try {
 ## `newConfirmedTokensTransactionsAndEachConfirmation()`
 
 ```php
-newConfirmedTokensTransactionsAndEachConfirmation($blockchain, $network, $context, $newConfirmedTokensTransactionsAndEachConfirmationRB): \CryptoapisApiClient\Model\NewConfirmedTokensTransactionsAndEachConfirmationR
+newConfirmedTokensTransactionsAndEachConfirmation($blockchain, $network, $context, $newConfirmedTokensTransactionsAndEachConfirmationRB): \MitinSany/CryptoapisApiClient\Model\NewConfirmedTokensTransactionsAndEachConfirmationR
 ```
 
 New Confirmed Tokens Transactions And Each Confirmation
@@ -509,12 +509,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\CreateSubscriptionsForApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -523,7 +523,7 @@ $apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
 $blockchain = ethereum; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = sepolia; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$newConfirmedTokensTransactionsAndEachConfirmationRB = new \CryptoapisApiClient\Model\NewConfirmedTokensTransactionsAndEachConfirmationRB(); // \CryptoapisApiClient\Model\NewConfirmedTokensTransactionsAndEachConfirmationRB
+$newConfirmedTokensTransactionsAndEachConfirmationRB = new \MitinSany/CryptoapisApiClient\Model\NewConfirmedTokensTransactionsAndEachConfirmationRB(); // \MitinSany/CryptoapisApiClient\Model\NewConfirmedTokensTransactionsAndEachConfirmationRB
 
 try {
     $result = $apiInstance->newConfirmedTokensTransactionsAndEachConfirmation($blockchain, $network, $context, $newConfirmedTokensTransactionsAndEachConfirmationRB);
@@ -540,11 +540,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **newConfirmedTokensTransactionsAndEachConfirmationRB** | [**\CryptoapisApiClient\Model\NewConfirmedTokensTransactionsAndEachConfirmationRB**](../Model/NewConfirmedTokensTransactionsAndEachConfirmationRB.md)|  | [optional] |
+| **newConfirmedTokensTransactionsAndEachConfirmationRB** | [**\MitinSany/CryptoapisApiClient\Model\NewConfirmedTokensTransactionsAndEachConfirmationRB**](../Model/NewConfirmedTokensTransactionsAndEachConfirmationRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\NewConfirmedTokensTransactionsAndEachConfirmationR**](../Model/NewConfirmedTokensTransactionsAndEachConfirmationR.md)
+[**\MitinSany/CryptoapisApiClient\Model\NewConfirmedTokensTransactionsAndEachConfirmationR**](../Model/NewConfirmedTokensTransactionsAndEachConfirmationR.md)
 
 ### Authorization
 
@@ -562,7 +562,7 @@ try {
 ## `newUnconfirmedCoinsTransactions()`
 
 ```php
-newUnconfirmedCoinsTransactions($blockchain, $network, $context, $newUnconfirmedCoinsTransactionsRB): \CryptoapisApiClient\Model\NewUnconfirmedCoinsTransactionsR
+newUnconfirmedCoinsTransactions($blockchain, $network, $context, $newUnconfirmedCoinsTransactionsRB): \MitinSany/CryptoapisApiClient\Model\NewUnconfirmedCoinsTransactionsR
 ```
 
 New Unconfirmed Coins Transactions
@@ -577,12 +577,12 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 
 // Configure API key authorization: ApiKey
-$config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
+$config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKey('x-api-key', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
+// $config = MitinSany/CryptoapisApiClient\Configuration::getDefaultConfiguration()->setApiKeyPrefix('x-api-key', 'Bearer');
 
 
-$apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
+$apiInstance = new MitinSany/CryptoapisApiClient\Api\CreateSubscriptionsForApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -591,7 +591,7 @@ $apiInstance = new CryptoapisApiClient\Api\CreateSubscriptionsForApi(
 $blockchain = bitcoin; // string | Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc.
 $network = testnet; // string | Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \"mainnet\" is the live network with actual data while networks like \"testnet\", \"sepolia\" are test networks.
 $context = yourExampleString; // string | In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. `context` is specified by the user.
-$newUnconfirmedCoinsTransactionsRB = new \CryptoapisApiClient\Model\NewUnconfirmedCoinsTransactionsRB(); // \CryptoapisApiClient\Model\NewUnconfirmedCoinsTransactionsRB
+$newUnconfirmedCoinsTransactionsRB = new \MitinSany/CryptoapisApiClient\Model\NewUnconfirmedCoinsTransactionsRB(); // \MitinSany/CryptoapisApiClient\Model\NewUnconfirmedCoinsTransactionsRB
 
 try {
     $result = $apiInstance->newUnconfirmedCoinsTransactions($blockchain, $network, $context, $newUnconfirmedCoinsTransactionsRB);
@@ -608,11 +608,11 @@ try {
 | **blockchain** | **string**| Represents the specific blockchain protocol name, e.g. Ethereum, Bitcoin, etc. | |
 | **network** | **string**| Represents the name of the blockchain network used; blockchain networks are usually identical as technology and software, but they differ in data, e.g. - \&quot;mainnet\&quot; is the live network with actual data while networks like \&quot;testnet\&quot;, \&quot;sepolia\&quot; are test networks. | |
 | **context** | **string**| In batch situations the user can use the context to correlate responses with requests. This property is present regardless of whether the response was successful or returned as an error. &#x60;context&#x60; is specified by the user. | [optional] |
-| **newUnconfirmedCoinsTransactionsRB** | [**\CryptoapisApiClient\Model\NewUnconfirmedCoinsTransactionsRB**](../Model/NewUnconfirmedCoinsTransactionsRB.md)|  | [optional] |
+| **newUnconfirmedCoinsTransactionsRB** | [**\MitinSany/CryptoapisApiClient\Model\NewUnconfirmedCoinsTransactionsRB**](../Model/NewUnconfirmedCoinsTransactionsRB.md)|  | [optional] |
 
 ### Return type
 
-[**\CryptoapisApiClient\Model\NewUnconfirmedCoinsTransactionsR**](../Model/NewUnconfirmedCoinsTransactionsR.md)
+[**\MitinSany/CryptoapisApiClient\Model\NewUnconfirmedCoinsTransactionsR**](../Model/NewUnconfirmedCoinsTransactionsR.md)
 
 ### Authorization
 
